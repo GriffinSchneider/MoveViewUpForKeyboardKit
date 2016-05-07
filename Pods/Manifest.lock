@@ -1,0 +1,20 @@
+PODS:
+  - DRYUI (0.8.0):
+    - Masonry
+  - Masonry (1.0.0)
+  - MoveViewUpForKeyboardKit (1.0.0)
+
+DEPENDENCIES:
+  - DRYUI
+  - MoveViewUpForKeyboardKit (from `./`)
+
+EXTERNAL SOURCES:
+  MoveViewUpForKeyboardKit:
+    :path: ./
+
+SPEC CHECKSUMS:
+  DRYUI: 53e2afe831500d17a12f6c9e3e7f137a15ff4061
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MoveViewUpForKeyboardKit: f6dff75ca76120f1bd1950f9a91995dd6e8c7c98
+
+COCOAPODS: 0.39.0

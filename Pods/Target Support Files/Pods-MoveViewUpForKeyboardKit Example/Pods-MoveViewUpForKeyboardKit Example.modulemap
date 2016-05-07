@@ -1,0 +1,6 @@
+framework module Pods_MoveViewUpForKeyboardKit_Example {
+  umbrella header "Pods-MoveViewUpForKeyboardKit Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
