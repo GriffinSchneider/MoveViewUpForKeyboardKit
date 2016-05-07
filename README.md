@@ -19,8 +19,8 @@ itself at the bottom of its superview or the top of the keyboard, whichever is h
 With this ultimate weapon against it, the keyboard knows that it cannot prevail. ⚔
 
 🗡 In desperation, the keyboard animates itself with undocumented animation curves, but
-`MoveViewUpForKeyboardKit` parries by matching them perfectly! The keyboard is off balance,
-and `MoveViewUpForKeyboardKit` prepares it's coup de grâce. 🗡
+`MoveViewUpForKeyboardKit` parries by matching them perfectly! The keyboard falls to its knees,
+and `MoveViewUpForKeyboardKit` prepares its coup de grâce. 🗡
 
 `MoveViewUpForKeyboardKit`mercilessly handles the case where the keyboard is 
 _already visible_, and keys fly everywhere as the dread keyboard explodes in a ball
