@@ -28,7 +28,7 @@ of furious hellfire! :fire::boom::fire::boom::fire:
 
 ## Installation
 
-MoveViewUpForKeyboardKit is available through [CocoaPods](http://cocoapods.org). To install
+`MoveViewUpForKeyboardKit` is available through [CocoaPods](http://cocoapods.org). To install
 it, just add the following line to your Podfile:
 
 ```ruby
