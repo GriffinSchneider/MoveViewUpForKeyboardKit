@@ -19,7 +19,7 @@ itself at the bottom of its superview or the top of the keyboard, whichever is h
 With this ultimate weapon against it, the keyboard knows that it cannot prevail. ⚔
 
 🗡 In desperation, the keyboard animates itself with undocumented animation curves, but
-`MoveViewUpForKeyboardKit` parrys by matching them perfectly! The keyboard is off balance,
+`MoveViewUpForKeyboardKit` parries by matching them perfectly! The keyboard is off balance,
 and `MoveViewUpForKeyboardKit` prepares it's coup de grâce. 🗡
 
 `MoveViewUpForKeyboardKit`mercilessly handles the case where the keyboard is 
