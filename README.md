@@ -1,4 +1,4 @@
-# MoveViewUpForKeyboardKit [![Version](https://img.shields.io/cocoapods/v/MoveViewUpForKeyboardKit.svg?style=flat)](http://cocoapods.org/pods/MoveViewUpForKeyboardKit) [![Build Status](https://travis-ci.org/GriffinSchneider/MoveViewUpForKeyboardKit.svg?branch=fix-travis)](https://travis-ci.org/GriffinSchneider/MoveViewUpForKeyboardKit)
+# MoveViewUpForKeyboardKit [![Version](https://img.shields.io/cocoapods/v/MoveViewUpForKeyboardKit.svg?style=flat)](http://cocoapods.org/pods/MoveViewUpForKeyboardKit) [![Build Status](https://travis-ci.org/GriffinSchneider/MoveViewUpForKeyboardKit.svg)](https://travis-ci.org/GriffinSchneider/MoveViewUpForKeyboardKit)
 
 The eternal battle between iOS developers and the keyboard rages on, and the
 keyboard seems poised for victory.
