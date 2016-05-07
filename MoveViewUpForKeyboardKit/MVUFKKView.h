@@ -1,6 +1,6 @@
 //
 //  MVUFKKView.h
-//  mobilepay
+//  MoveViewUpForKeyboardKit
 //
 //  Created by Griffin Schneider on 5/7/16.
 //  Copyright © 2016 Griffin Schneider. All rights reserved.
