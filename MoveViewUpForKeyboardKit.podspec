@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
       everywhere as the dread keyboard explodes in a ball of furious hellfire.
   }
   s.homepage         = "https://github.com/GriffinSchneider/MoveViewUpForKeyboardKit"
-  s.license          = 'MIT'
+  s.license          = {:type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { "Griffin Schneider" => "griffinschneider@gmail.com" }
   s.source           = { :git => "https://github.com/GriffinSchneider/MoveViewUpForKeyboardKit.git", :tag => s.version.to_s }
     
