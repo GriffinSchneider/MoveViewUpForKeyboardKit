@@ -37,10 +37,10 @@ pod MoveViewUpForKeyboardKit
 
 ## Usage
 
-`MoveViewUpForKeyboardKit` provides a single class, `MVUFKKView`. All you need to do
+`MoveViewUpForKeyboardKit` provides a single class, `MVUFKView`. All you need to do
 is put a view of this class in the view hierarchy and set the 'enabled' property.
-`MVUFKKView`s will automatically do everything required to keep themselves above
+`MVUFKView`s will automatically do everything required to keep themselves above
 the keyboard with correct animation. If the keyboard is not visible, or if it doesn't
-overlap your view, then the `MVUFKKView` will position itself (using constraints) at
-the bottom of its superview. Once you have a `MVUFKKView`, you can simply use layout
+overlap your view, then the `MVUFKView` will position itself (using constraints) at
+the bottom of its superview. Once you have a `MVUFKView`, you can simply use layout
 constraints to adapt your layout for the keyboard.

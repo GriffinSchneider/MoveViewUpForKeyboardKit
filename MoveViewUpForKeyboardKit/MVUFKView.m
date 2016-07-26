@@ -1,12 +1,12 @@
 //
-//  MVUFKKView.m
+//  MVUFKView.m
 //  MoveViewUpForKeyboardKit
 //
 //  Created by Griffin Schneider on 5/7/16.
 //  Copyright © 2016 Griffin Schneider. All rights reserved.
 //
 
-#import "MVUFKKView.h"
+#import "MVUFKView.h"
 
 
 
@@ -51,11 +51,11 @@ static MVUFKKKeyboardManager *managerInstance;
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-@interface MVUFKKView () <MVUFKKKeyboardListener>
+@interface MVUFKView () <MVUFKKKeyboardListener>
 @property (nonatomic, strong) NSLayoutConstraint *constraint;
 @end
 
-@implementation MVUFKKView
+@implementation MVUFKView
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if ((self = [super initWithCoder:aDecoder])) {

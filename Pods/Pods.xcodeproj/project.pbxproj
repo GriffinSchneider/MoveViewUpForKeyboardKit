@@ -1,3246 +1,1128 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0031A3F38DA3D6837286F1D4040FA3B8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDEC2E3044007A83B06678C487669558</string>
-				<string>4D0360BE46D5397E2DB22EB71C267F14</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00320C225618DCA5BD8A06D4CD551EE0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>65C27E106E8013702729C7C957F554E5</string>
-				<string>95C0F8D3333E45268A5F377BC21AE098</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>007F6CF7E9E192AC142F57F4F01D0636</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1AE25F3067E714975732CD0C4672EF37</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>00E6F37A8E43D84720561FB24C58D512</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C334043C473D2EC9E98CF80AB4013E7</string>
-				<string>0844467064B267A0ADDC323BAE07202F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MoveViewUpForKeyboardKit</string>
-			<key>path</key>
-			<string>..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00F1A426317B7314AC7EA408A2A9DAE2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A0E9B0446B5CC6143DE1C6872A9BC74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>02A89F093E8EC51AE763B27F3A503DC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7721723E4D3C37C31B72E1322D22D32</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>02FDE135C597FC0DD52CAFEF0B3287EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1FF85619D540B68366EECB7F87AE89BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>033786D1343BB6D86BBE85A51016E0F4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Masonry.framework</string>
-			<key>path</key>
-			<string>Masonry.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0584461A4615C955B48E71B1956AF2D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>View+MASAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/View+MASAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05D362A4C12F79FA956C359CE553C938</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D191DB699920046F5057F3B4E1171297</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>060C5478DA770C6F85FA929F6DBAD79C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4D18651BA429C1AD6B93713B0BCA672A</string>
-				<string>033786D1343BB6D86BBE85A51016E0F4</string>
-				<string>0985E97C128BAC8150FE78108F886957</string>
-				<string>E2982F2CA578142294681A6ECE346ADA</string>
-				<string>5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07690B0DAEF664905764C9DDD0FFE3BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9748FD0AEE0162744A526765677B66BC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>083BE07E833EDE55791E9656F7EBB567</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C2B98768C0CA0D5AD080B19E4432FCB7</string>
-				<string>7FE8E8FBD8C3DD1265896C91114252BB</string>
-				<string>1FF85619D540B68366EECB7F87AE89BA</string>
-				<string>105D7DEB7FCD07B405140B953A705B85</string>
-				<string>7221C4C0C6C5176DE83086B49377B28B</string>
-				<string>628DCF13AE0B40CF62B74C8E8360CB0D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/DRYUI</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0844467064B267A0ADDC323BAE07202F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>871498BDCA04D65A8B15D296F44D6050</string>
-				<string>DA05C1C88522262270CAC9F2F154E225</string>
-				<string>820B897F4F6CE139E09C028C64F29845</string>
-				<string>D7721723E4D3C37C31B72E1322D22D32</string>
-				<string>EAAA2F31F348850183CF7D4DB79812D4</string>
-				<string>6E27B32365E58A7945BC56AD5BBA774F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/MoveViewUpForKeyboardKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08B61368028331869731DF8A1FC11FC5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7A9557F7CFC0A76656228765962E537F</string>
-			<key>remoteInfo</key>
-			<string>MoveViewUpForKeyboardKit</string>
-		</dict>
-		<key>0985E97C128BAC8150FE78108F886957</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>MoveViewUpForKeyboardKit.framework</string>
-			<key>path</key>
-			<string>MoveViewUpForKeyboardKit.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0A83880C48939BE4C108DE5BA751349B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0AFA6812E465B7C9F81550FBBED1D9C0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7FE8E8FBD8C3DD1265896C91114252BB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/DRYUI/DRYUI-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/DRYUI/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/DRYUI/DRYUI.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>DRYUI</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0B438F543F6EF49DCEDAAB6D44541E5F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EA0D74C20596489EF5FC24C4E5F0CDF3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests/Pods-Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0D8C846B5FDCB0DEF8A534487ACF4441</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ViewController+MASAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/ViewController+MASAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0DCAA7A2A88D4C2F4CFE2451C320DA1D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E1095ECB52A9063F20E27A2B46A57D20</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>105D7DEB7FCD07B405140B953A705B85</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DRYUI-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1098791A85FFD0DA0035F5371B33FD27</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>955FAC9E71FB31A9B9DCC305C2AE5F2E</string>
-				<string>7FA577523D89D3980A7205DAABF2D121</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>11182492C52286F23DB2613F84758D64</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Masonry.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114B0277436A6EC98AD8F475E120C804</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2636C6052FED1A48DEACA5166ACC8626</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>12BA8BAC77B50EEAD02B69573B874DFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Masonry.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>197A1A7C1253063D6B85411552802B3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8AA4494D302CA1FA3063DAAF05742163</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1A39176E398454028BF7AE6507BEED51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASCompositeConstraint.h</string>
-			<key>path</key>
-			<string>Masonry/MASCompositeConstraint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AE25F3067E714975732CD0C4672EF37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A83880C48939BE4C108DE5BA751349B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D29B804709CF887614DC9BA7693424F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>View+MASAdditions.m</string>
-			<key>path</key>
-			<string>Masonry/View+MASAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E5717420A9DADFEE4CFC26B19D9F7A7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A83880C48939BE4C108DE5BA751349B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1FF85619D540B68366EECB7F87AE89BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DRYUI-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FF9785D2B7715F39BD4258BCE46C5C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A83880C48939BE4C108DE5BA751349B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>258301A1BF0744B38F0A3B2F84E47F92</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>DRYUI</string>
-			<key>target</key>
-			<string>D51441E827E03C2FFD4A64324FF9F3FE</string>
-			<key>targetProxy</key>
-			<string>7879263A5BA1CEA1E6B23C084891223F</string>
-		</dict>
-		<key>2636C6052FED1A48DEACA5166ACC8626</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ViewController+MASAdditions.m</string>
-			<key>path</key>
-			<string>Masonry/ViewController+MASAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2847DE9B107337955A1546A8138D456F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>285B5591255F4B7D13B4655F0DACD068</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MASViewConstraint.m</string>
-			<key>path</key>
-			<string>Masonry/MASViewConstraint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A70CDAD61F90AC503C7D04CC22DA2923</string>
-				<string>FB45FFD90572718D82AB9092B750F0CA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>301557484445E4EA5BA091700834B7B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>View+MASShorthandAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/View+MASShorthandAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E700D20A232BF56C71A9307D9825F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D191DB699920046F5057F3B4E1171297</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>31DCCC79D9EF4FA91F7C26A8316F52BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+MASDebugAdditions.m</string>
-			<key>path</key>
-			<string>Masonry/NSLayoutConstraint+MASDebugAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>32E34B5B6F911565C4297022A02A98A3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>866EB0567C365A254CF686FB82D3488D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests/Pods-Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>34CBF7702E5231363574BBA2A6DA5F2B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>02FDE135C597FC0DD52CAFEF0B3287EE</string>
-				<string>9F5EE41B87B88352226DF0F93803F51B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>34D914A65D0FF519F6F1E06F2A6EFDA3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>688714C43C5137A85C29E6F6B7CA179D</string>
-				<string>A425457901EEFFA3B94235C6FC2746E8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>361D60868C84890C42B8F57AF81DBEF6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>496309CF3AD3B8E1E230607C4EA42DCF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>363EEFD6B8835D230098D6D0DA7FF5B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>411DE9C484F4D78437A545E77D82C56C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>36B37C14DB8DE8AFC3FE8E6FF99CDA54</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CE403E7A4C78379B13841C839DEEA13F</string>
-				<string>30E700D20A232BF56C71A9307D9825F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>39BC1F3D944E99DBFFBC1E5317A9B572</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A0EDF51EDB21EADB1D0F9048FC74CCE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A5AF3C2BDFE79BA72578BA434966F63F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3AF415889A5C4091E8CF82C0993A585B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>285B5591255F4B7D13B4655F0DACD068</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B59B0D8D39D709E411D0365C768C286</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASConstraint.h</string>
-			<key>path</key>
-			<string>Masonry/MASConstraint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D21C4F6AB89D24CDE74CDDBB288A3E0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9A50BA68A7BF8EE804FC609696E922AF</string>
-				<string>90A8092B1478321A69C25D2DEFDF5E17</string>
-				<string>CC732FE55B9400CD77C9C73F90D8CB5A</string>
-				<string>E86DA98906D885A7B43A7EEA2FB4BE57</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3EAD707915019A32F9C57072B9B9EC1A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1FF9785D2B7715F39BD4258BCE46C5C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>411DE9C484F4D78437A545E77D82C56C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSArray+MASShorthandAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/NSArray+MASShorthandAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4124FC1DDF01F3C5B4F6A2826C809443</key>
-		<dict>
-			<key>fileRef</key>
-			<string>453977296FB393BB1B6975E8594B9A6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4157BCBC7E5D7ACB02D6E0F7B6DBDE21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>424771B44C1339043E300B49789C69EE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7FE8E8FBD8C3DD1265896C91114252BB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/DRYUI/DRYUI-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/DRYUI/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/DRYUI/DRYUI.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>DRYUI</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4420A338449FEC950DF5D4FC9968DFDA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A7EE9ABA1223A7AB2AA2A06926DD21EC</string>
-				<string>97E7B6AB52AB4CDD422F3DB1FA115B3F</string>
-				<string>4F67A945E4BB244B56338326803B19B6</string>
-				<string>E3B40415626FEF028FDB54705BF1CB41</string>
-				<string>3A0EDF51EDB21EADB1D0F9048FC74CCE</string>
-				<string>4124FC1DDF01F3C5B4F6A2826C809443</string>
-				<string>6F63BF6D4C818A545E480083B7BC05E9</string>
-				<string>9BADF31C518984A48247D2A49AAA569A</string>
-				<string>00F1A426317B7314AC7EA408A2A9DAE2</string>
-				<string>197A1A7C1253063D6B85411552802B3F</string>
-				<string>361D60868C84890C42B8F57AF81DBEF6</string>
-				<string>363EEFD6B8835D230098D6D0DA7FF5B2</string>
-				<string>4C3AAAC08EAAC9AF488F4A3BBDE11AD6</string>
-				<string>75D8F59D6FB9451B49BF6C6EA1CE76C5</string>
-				<string>B5FF727EAE8B3173292C73D6B15A19EE</string>
-				<string>93B0C4B84B47E711DB8454DF3CBD2685</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>453977296FB393BB1B6975E8594B9A6B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Masonry-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>496309CF3AD3B8E1E230607C4EA42DCF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSArray+MASAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/NSArray+MASAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A183F239F0C5810D241DB4CECF1A122</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>64AA422E245D5E7865AE4588D6B58B74</string>
-				<string>F4A9617992B0A76B5467F61697FB4508</string>
-				<string>05D362A4C12F79FA956C359CE553C938</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4B3E078FDAD9A513331DEE8ACC486ED1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D8443F3AA8235416773F509A0D566D0C</string>
-				<string>A940E8DD7EC88769FF7FCF33B1078F04</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4C3AAAC08EAAC9AF488F4A3BBDE11AD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6A430EF8311AFC53918B3999958D1FB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4D0360BE46D5397E2DB22EB71C267F14</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DF15E7410EB7A19ED83A5B7A87518BC2</string>
-				<string>39BC1F3D944E99DBFFBC1E5317A9B572</string>
-				<string>5EDA86249AEBAF55C445E051A5696ECB</string>
-				<string>F9E256493FD8D85D8A84603AAAF96F3B</string>
-				<string>E4E3A97FA0EE42518919259AC10CA332</string>
-				<string>C9EE49440980401DF248D4AE43E26913</string>
-				<string>DE738DA0E6EB9BFA10BE635D648EEAD3</string>
-				<string>86D17397A31FA9048B9C64DE056E485B</string>
-				<string>EA0D74C20596489EF5FC24C4E5F0CDF3</string>
-				<string>866EB0567C365A254CF686FB82D3488D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D18651BA429C1AD6B93713B0BCA672A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>DRYUI.framework</string>
-			<key>path</key>
-			<string>DRYUI.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4F67A945E4BB244B56338326803B19B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B59B0D8D39D709E411D0365C768C286</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4F7DBEB3329D0D8D4F7364D05DA8BE83</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F81508F420A91D9CB8AAB0E0A4C4666</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B50AD1D04BCE4346D9A5BE48360EDA93</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>506BD20DF1A1B48CA19B5D2130183906</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>519CACDBF4FA77132FDAAF834FE20BC5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MASCompositeConstraint.m</string>
-			<key>path</key>
-			<string>Masonry/MASCompositeConstraint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>529DE3D546EA7717323FDB1AB9A7BFF3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CD3F5CAC8F8F25F1365429857097052D</string>
-				<string>C08FBA98B6D65B1262F347CAE3F2DFD6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>577784C2103082C2BC2441C4E40FFCA1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00E6F37A8E43D84720561FB24C58D512</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59511511C2B4BC905C933DCC67E365C4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6BF35C23E029BF10AE1D3595169AFBCF</string>
-				<string>BD6A029B56315F199B8B604A89006E3B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EDA86249AEBAF55C445E051A5696ECB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5FAEEDE53A7F76DE5AA750C58A7EF5C2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7A9557F7CFC0A76656228765962E537F</string>
-			<key>remoteInfo</key>
-			<string>MoveViewUpForKeyboardKit</string>
-		</dict>
-		<key>60AEF6B38C68CBADD37AE99FA51D978B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8B6895558BEB313E5E62D1A5FAD00E8D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FF62D9DB494FF45F0DEEF3147D859287</string>
-				<string>007F6CF7E9E192AC142F57F4F01D0636</string>
-				<string>AC8BC2CF31389A53EC1404EC5E973560</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>66C0794A42D5B13AB95CF3B903811673</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>627557B046073C06233FADF254EF9D34</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DRYUIMetamacros.h</string>
-			<key>path</key>
-			<string>DRYUI/DRYUIMetamacros.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>628DCF13AE0B40CF62B74C8E8360CB0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64369AA8AB0DE5E6D7CA920266B75D89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASConstraint+Private.h</string>
-			<key>path</key>
-			<string>Masonry/MASConstraint+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64AA422E245D5E7865AE4588D6B58B74</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A83880C48939BE4C108DE5BA751349B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>659021FDE4F25A9FC88F966B9E56AE71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MASConstraintMaker.m</string>
-			<key>path</key>
-			<string>Masonry/MASConstraintMaker.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>65C27E106E8013702729C7C957F554E5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>820B897F4F6CE139E09C028C64F29845</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MoveViewUpForKeyboardKit/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>MoveViewUpForKeyboardKit</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6600C3D536185C9DA1E802A1E0FC976B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MASViewAttribute.m</string>
-			<key>path</key>
-			<string>Masonry/MASViewAttribute.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66C0794A42D5B13AB95CF3B903811673</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MoveViewUpForKeyboardKit</string>
-			<key>target</key>
-			<string>7A9557F7CFC0A76656228765962E537F</string>
-			<key>targetProxy</key>
-			<string>08B61368028331869731DF8A1FC11FC5</string>
-		</dict>
-		<key>688714C43C5137A85C29E6F6B7CA179D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>11182492C52286F23DB2613F84758D64</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Masonry/Masonry-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Masonry/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Masonry/Masonry.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Masonry</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6BF35C23E029BF10AE1D3595169AFBCF</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Masonry.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6E27B32365E58A7945BC56AD5BBA774F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MoveViewUpForKeyboardKit-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F63BF6D4C818A545E480083B7BC05E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBCF554023FAB7F3DE613837221DF63A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7221C4C0C6C5176DE83086B49377B28B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DRYUI-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74DDB1B883A9460D3B075344DBDA0C77</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DRYUI.m</string>
-			<key>path</key>
-			<string>DRYUI/DRYUI.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75D8F59D6FB9451B49BF6C6EA1CE76C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0584461A4615C955B48E71B1956AF2D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7879263A5BA1CEA1E6B23C084891223F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D51441E827E03C2FFD4A64324FF9F3FE</string>
-			<key>remoteInfo</key>
-			<string>DRYUI</string>
-		</dict>
-		<key>78EA4D522E852AB4D8C57AAB073FE100</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DA623432F361133B44D4F65CD0D149DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79A1975BFF06918802D1A6FF43946429</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31DCCC79D9EF4FA91F7C26A8316F52BE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A9557F7CFC0A76656228765962E537F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>00320C225618DCA5BD8A06D4CD551EE0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9828AEE26A35A2B01A16DE4E8E5F609F</string>
-				<string>36B37C14DB8DE8AFC3FE8E6FF99CDA54</string>
-				<string>1098791A85FFD0DA0035F5371B33FD27</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MoveViewUpForKeyboardKit</string>
-			<key>productName</key>
-			<string>MoveViewUpForKeyboardKit</string>
-			<key>productReference</key>
-			<string>0985E97C128BAC8150FE78108F886957</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7ACE3AD077D106D86BFE7D9C1BB6840A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D191DB699920046F5057F3B4E1171297</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C334043C473D2EC9E98CF80AB4013E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B277C6DC8C61A86801ED99941758B485</string>
-				<string>B50AD1D04BCE4346D9A5BE48360EDA93</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MoveViewUpForKeyboardKit</string>
-			<key>path</key>
-			<string>MoveViewUpForKeyboardKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CB0571EC0D892B068A11E1E0C34106C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>98F4D9A60329AEECF3426797858BF5D4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>577784C2103082C2BC2441C4E40FFCA1</string>
-				<string>59511511C2B4BC905C933DCC67E365C4</string>
-				<string>529DE3D546EA7717323FDB1AB9A7BFF3</string>
-				<string>060C5478DA770C6F85FA929F6DBAD79C</string>
-				<string>0031A3F38DA3D6837286F1D4040FA3B8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7FA577523D89D3980A7205DAABF2D121</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B277C6DC8C61A86801ED99941758B485</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7FE8E8FBD8C3DD1265896C91114252BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>DRYUI.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>820B897F4F6CE139E09C028C64F29845</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MoveViewUpForKeyboardKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>866EB0567C365A254CF686FB82D3488D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86D17397A31FA9048B9C64DE056E485B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>871498BDCA04D65A8B15D296F44D6050</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88F485597651E76F1FC1F872B4FC8A17</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8AA4494D302CA1FA3063DAAF05742163</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASViewConstraint.h</string>
-			<key>path</key>
-			<string>Masonry/MASViewConstraint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B6895558BEB313E5E62D1A5FAD00E8D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0B438F543F6EF49DCEDAAB6D44541E5F</string>
-				<string>32E34B5B6F911565C4297022A02A98A3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8C7A2A93486B8B329116938116822E2B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MoveViewUpForKeyboardKit</string>
-			<key>target</key>
-			<string>7A9557F7CFC0A76656228765962E537F</string>
-			<key>targetProxy</key>
-			<string>5FAEEDE53A7F76DE5AA750C58A7EF5C2</string>
-		</dict>
-		<key>8C88B0531303437E5B7E395269413A8A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Masonry-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D2726E2A91A2C4BE921265B77A7FB96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6600C3D536185C9DA1E802A1E0FC976B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DE07494AF868F832AAA2B5CE05E9C0E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9010A9D55B9FC20ACA306B2ED7689078</string>
-			<key>remoteInfo</key>
-			<string>Masonry</string>
-		</dict>
-		<key>9010A9D55B9FC20ACA306B2ED7689078</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>34D914A65D0FF519F6F1E06F2A6EFDA3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F4A2D383FC35CB1B27B8FB1A6732B726</string>
-				<string>C0FCAB9D883B4C37C20AB62F62EF0615</string>
-				<string>4420A338449FEC950DF5D4FC9968DFDA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Masonry</string>
-			<key>productName</key>
-			<string>Masonry</string>
-			<key>productReference</key>
-			<string>033786D1343BB6D86BBE85A51016E0F4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>90777408275C8BE2A75E983A9B82E684</key>
-		<dict>
-			<key>fileRef</key>
-			<string>519CACDBF4FA77132FDAAF834FE20BC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90A8092B1478321A69C25D2DEFDF5E17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B187D83BCD38B78C13AA51224C42E81A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>93B0C4B84B47E711DB8454DF3CBD2685</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D8C846B5FDCB0DEF8A534487ACF4441</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9508B9674BECD8DD20168400D24458CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>955FAC9E71FB31A9B9DCC305C2AE5F2E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E27B32365E58A7945BC56AD5BBA774F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>95C0F8D3333E45268A5F377BC21AE098</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>820B897F4F6CE139E09C028C64F29845</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MoveViewUpForKeyboardKit/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>MoveViewUpForKeyboardKit</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9748FD0AEE0162744A526765677B66BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Masonry-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97E7B6AB52AB4CDD422F3DB1FA115B3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64369AA8AB0DE5E6D7CA920266B75D89</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9828AEE26A35A2B01A16DE4E8E5F609F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>02A89F093E8EC51AE763B27F3A503DC1</string>
-				<string>4F81508F420A91D9CB8AAB0E0A4C4666</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>98F4D9A60329AEECF3426797858BF5D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9508B9674BECD8DD20168400D24458CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9A0E9B0446B5CC6143DE1C6872A9BC74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASViewAttribute.h</string>
-			<key>path</key>
-			<string>Masonry/MASViewAttribute.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A50BA68A7BF8EE804FC609696E922AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7221C4C0C6C5176DE83086B49377B28B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9B1462C75E9A6E221DD191F1756FCA54</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4B3E078FDAD9A513331DEE8ACC486ED1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7CB0571EC0D892B068A11E1E0C34106C</string>
-				<string>3EAD707915019A32F9C57072B9B9EC1A</string>
-				<string>78EA4D522E852AB4D8C57AAB073FE100</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>258301A1BF0744B38F0A3B2F84E47F92</string>
-				<string>A8285EA425B653FB0EFAF35F5D070CA4</string>
-				<string>8C7A2A93486B8B329116938116822E2B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example</string>
-			<key>productName</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example</string>
-			<key>productReference</key>
-			<string>E2982F2CA578142294681A6ECE346ADA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>9BADF31C518984A48247D2A49AAA569A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A506C91DF8D6720CF95477622BD11A13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9F5EE41B87B88352226DF0F93803F51B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>74DDB1B883A9460D3B075344DBDA0C77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A2FC1F882414857CBAE2ED843A6812F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MASConstraint.m</string>
-			<key>path</key>
-			<string>Masonry/MASConstraint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A425457901EEFFA3B94235C6FC2746E8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>11182492C52286F23DB2613F84758D64</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Masonry/Masonry-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Masonry/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Masonry/Masonry.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>Masonry</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A506C91DF8D6720CF95477622BD11A13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASUtilities.h</string>
-			<key>path</key>
-			<string>Masonry/MASUtilities.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A55B43CF8637DABF1C82FDD3048C9F0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>libextobjc-metamacros.h</string>
-			<key>path</key>
-			<string>DRYUI/libextobjc-metamacros.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5AF3C2BDFE79BA72578BA434966F63F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASLayoutConstraint.h</string>
-			<key>path</key>
-			<string>Masonry/MASLayoutConstraint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A7EE9ABA1223A7AB2AA2A06926DD21EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A39176E398454028BF7AE6507BEED51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A8285EA425B653FB0EFAF35F5D070CA4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Masonry</string>
-			<key>target</key>
-			<string>9010A9D55B9FC20ACA306B2ED7689078</string>
-			<key>targetProxy</key>
-			<string>CEF62456F0738079B271E2DA7989D9C7</string>
-		</dict>
-		<key>A940E8DD7EC88769FF7FCF33B1078F04</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C89EE63AE2D01A2F7D13088C5EDC7535</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MoveViewUpForKeyboardKit_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AB8984A154B575B87F259D03C6186E1F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSArray+MASAdditions.m</string>
-			<key>path</key>
-			<string>Masonry/NSArray+MASAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC8BC2CF31389A53EC1404EC5E973560</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FBEF6E3425AFB232694A3461B0A3C0BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B187D83BCD38B78C13AA51224C42E81A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DRYUI.h</string>
-			<key>path</key>
-			<string>DRYUI/DRYUI.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B277C6DC8C61A86801ED99941758B485</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MVUFKKView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B41A5E6E75E58AFA5F1BD90B72373E1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B50AD1D04BCE4346D9A5BE48360EDA93</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MVUFKKView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5FF727EAE8B3173292C73D6B15A19EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>301557484445E4EA5BA091700834B7B9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BD6A029B56315F199B8B604A89006E3B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0A83880C48939BE4C108DE5BA751349B</string>
-				<string>D191DB699920046F5057F3B4E1171297</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C08FBA98B6D65B1262F347CAE3F2DFD6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1A39176E398454028BF7AE6507BEED51</string>
-				<string>519CACDBF4FA77132FDAAF834FE20BC5</string>
-				<string>3B59B0D8D39D709E411D0365C768C286</string>
-				<string>A2FC1F882414857CBAE2ED843A6812F5</string>
-				<string>64369AA8AB0DE5E6D7CA920266B75D89</string>
-				<string>CF2E8F66D6C1044BC1DAE588924EACEF</string>
-				<string>659021FDE4F25A9FC88F966B9E56AE71</string>
-				<string>A5AF3C2BDFE79BA72578BA434966F63F</string>
-				<string>E1095ECB52A9063F20E27A2B46A57D20</string>
-				<string>CBCF554023FAB7F3DE613837221DF63A</string>
-				<string>A506C91DF8D6720CF95477622BD11A13</string>
-				<string>9A0E9B0446B5CC6143DE1C6872A9BC74</string>
-				<string>6600C3D536185C9DA1E802A1E0FC976B</string>
-				<string>8AA4494D302CA1FA3063DAAF05742163</string>
-				<string>285B5591255F4B7D13B4655F0DACD068</string>
-				<string>496309CF3AD3B8E1E230607C4EA42DCF</string>
-				<string>AB8984A154B575B87F259D03C6186E1F</string>
-				<string>411DE9C484F4D78437A545E77D82C56C</string>
-				<string>C6A430EF8311AFC53918B3999958D1FB</string>
-				<string>31DCCC79D9EF4FA91F7C26A8316F52BE</string>
-				<string>0584461A4615C955B48E71B1956AF2D0</string>
-				<string>1D29B804709CF887614DC9BA7693424F</string>
-				<string>301557484445E4EA5BA091700834B7B9</string>
-				<string>0D8C846B5FDCB0DEF8A534487ACF4441</string>
-				<string>2636C6052FED1A48DEACA5166ACC8626</string>
-				<string>F55414B979FFF32877587C1B3C8C6165</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Masonry</string>
-			<key>path</key>
-			<string>Masonry</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0FCAB9D883B4C37C20AB62F62EF0615</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1E5717420A9DADFEE4CFC26B19D9F7A7</string>
-				<string>7ACE3AD077D106D86BFE7D9C1BB6840A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C2B98768C0CA0D5AD080B19E4432FCB7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DRYUI.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4D559913951E69F7883715DED0C419A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Masonry</string>
-			<key>target</key>
-			<string>9010A9D55B9FC20ACA306B2ED7689078</string>
-			<key>targetProxy</key>
-			<string>8DE07494AF868F832AAA2B5CE05E9C0E</string>
-		</dict>
-		<key>C6A430EF8311AFC53918B3999958D1FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+MASDebugAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/NSLayoutConstraint+MASDebugAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C89EE63AE2D01A2F7D13088C5EDC7535</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8A5B445F48AAFE1367E399328F3A418</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D29B804709CF887614DC9BA7693424F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C9EE49440980401DF248D4AE43E26913</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB7CBECE4D4B93DB2A200866A989A1AB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0AFA6812E465B7C9F81550FBBED1D9C0</string>
-				<string>424771B44C1339043E300B49789C69EE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>CBCF554023FAB7F3DE613837221DF63A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Masonry.h</string>
-			<key>path</key>
-			<string>Masonry/Masonry.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CC732FE55B9400CD77C9C73F90D8CB5A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>627557B046073C06233FADF254EF9D34</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CD3F5CAC8F8F25F1365429857097052D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B187D83BCD38B78C13AA51224C42E81A</string>
-				<string>74DDB1B883A9460D3B075344DBDA0C77</string>
-				<string>627557B046073C06233FADF254EF9D34</string>
-				<string>A55B43CF8637DABF1C82FDD3048C9F0F</string>
-				<string>083BE07E833EDE55791E9656F7EBB567</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DRYUI</string>
-			<key>path</key>
-			<string>DRYUI</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE403E7A4C78379B13841C839DEEA13F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A83880C48939BE4C108DE5BA751349B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CE4E157C30799E11084E0006AFC689A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB8984A154B575B87F259D03C6186E1F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CEF62456F0738079B271E2DA7989D9C7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9010A9D55B9FC20ACA306B2ED7689078</string>
-			<key>remoteInfo</key>
-			<string>Masonry</string>
-		</dict>
-		<key>CF07C78BB52116FF13531994F0125042</key>
-		<dict>
-			<key>fileRef</key>
-			<string>659021FDE4F25A9FC88F966B9E56AE71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CF2E8F66D6C1044BC1DAE588924EACEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASConstraintMaker.h</string>
-			<key>path</key>
-			<string>Masonry/MASConstraintMaker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D191DB699920046F5057F3B4E1171297</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>060C5478DA770C6F85FA929F6DBAD79C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D51441E827E03C2FFD4A64324FF9F3FE</string>
-				<string>9010A9D55B9FC20ACA306B2ED7689078</string>
-				<string>7A9557F7CFC0A76656228765962E537F</string>
-				<string>9B1462C75E9A6E221DD191F1756FCA54</string>
-				<string>60AEF6B38C68CBADD37AE99FA51D978B</string>
-			</array>
-		</dict>
-		<key>D51441E827E03C2FFD4A64324FF9F3FE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>CB7CBECE4D4B93DB2A200866A989A1AB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>34CBF7702E5231363574BBA2A6DA5F2B</string>
-				<string>4A183F239F0C5810D241DB4CECF1A122</string>
-				<string>3D21C4F6AB89D24CDE74CDDBB288A3E0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C4D559913951E69F7883715DED0C419A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DRYUI</string>
-			<key>productName</key>
-			<string>DRYUI</string>
-			<key>productReference</key>
-			<string>4D18651BA429C1AD6B93713B0BCA672A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>D7721723E4D3C37C31B72E1322D22D32</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MoveViewUpForKeyboardKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8443F3AA8235416773F509A0D566D0C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B41A5E6E75E58AFA5F1BD90B72373E1A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MoveViewUpForKeyboardKit_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DA05C1C88522262270CAC9F2F154E225</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MoveViewUpForKeyboardKit.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA623432F361133B44D4F65CD0D149DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2847DE9B107337955A1546A8138D456F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DBBF57978D06F61C7BADC49FD5A5F509</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE738DA0E6EB9BFA10BE635D648EEAD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF15E7410EB7A19ED83A5B7A87518BC2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1095ECB52A9063F20E27A2B46A57D20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MASLayoutConstraint.m</string>
-			<key>path</key>
-			<string>Masonry/MASLayoutConstraint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2982F2CA578142294681A6ECE346ADA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_MoveViewUpForKeyboardKit_Example.framework</string>
-			<key>path</key>
-			<string>Pods_MoveViewUpForKeyboardKit_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E3B40415626FEF028FDB54705BF1CB41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CF2E8F66D6C1044BC1DAE588924EACEF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E4E3A97FA0EE42518919259AC10CA332</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E86DA98906D885A7B43A7EEA2FB4BE57</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A55B43CF8637DABF1C82FDD3048C9F0F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EA0D74C20596489EF5FC24C4E5F0CDF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EAAA2F31F348850183CF7D4DB79812D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MoveViewUpForKeyboardKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF58DAC8D0E1EC2BFB86EB56AD721893</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2FC1F882414857CBAE2ED843A6812F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F0A3E62D03C73BD39578896D1AFB867C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0C740622C8828DA0E9E8A2AA3D7A065</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4A2D383FC35CB1B27B8FB1A6732B726</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>90777408275C8BE2A75E983A9B82E684</string>
-				<string>EF58DAC8D0E1EC2BFB86EB56AD721893</string>
-				<string>CF07C78BB52116FF13531994F0125042</string>
-				<string>0DCAA7A2A88D4C2F4CFE2451C320DA1D</string>
-				<string>07690B0DAEF664905764C9DDD0FFE3BB</string>
-				<string>8D2726E2A91A2C4BE921265B77A7FB96</string>
-				<string>3AF415889A5C4091E8CF82C0993A585B</string>
-				<string>CE4E157C30799E11084E0006AFC689A0</string>
-				<string>79A1975BFF06918802D1A6FF43946429</string>
-				<string>C8A5B445F48AAFE1367E399328F3A418</string>
-				<string>114B0277436A6EC98AD8F475E120C804</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F4A9617992B0A76B5467F61697FB4508</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BF35C23E029BF10AE1D3595169AFBCF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F55414B979FFF32877587C1B3C8C6165</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4157BCBC7E5D7ACB02D6E0F7B6DBDE21</string>
-				<string>12BA8BAC77B50EEAD02B69573B874DFB</string>
-				<string>11182492C52286F23DB2613F84758D64</string>
-				<string>9748FD0AEE0162744A526765677B66BC</string>
-				<string>8C88B0531303437E5B7E395269413A8A</string>
-				<string>453977296FB393BB1B6975E8594B9A6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Masonry</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F9E256493FD8D85D8A84603AAAF96F3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA7CFE03A94F912F37DB1028EF38FAED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4E3A97FA0EE42518919259AC10CA332</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FB45FFD90572718D82AB9092B750F0CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FBEF6E3425AFB232694A3461B0A3C0BD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86D17397A31FA9048B9C64DE056E485B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FDEC2E3044007A83B06678C487669558</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>88F485597651E76F1FC1F872B4FC8A17</string>
-				<string>4F7DBEB3329D0D8D4F7364D05DA8BE83</string>
-				<string>DBBF57978D06F61C7BADC49FD5A5F509</string>
-				<string>506BD20DF1A1B48CA19B5D2130183906</string>
-				<string>9508B9674BECD8DD20168400D24458CC</string>
-				<string>F0C740622C8828DA0E9E8A2AA3D7A065</string>
-				<string>F0A3E62D03C73BD39578896D1AFB867C</string>
-				<string>2847DE9B107337955A1546A8138D456F</string>
-				<string>B41A5E6E75E58AFA5F1BD90B72373E1A</string>
-				<string>C89EE63AE2D01A2F7D13088C5EDC7535</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MoveViewUpForKeyboardKit Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MoveViewUpForKeyboardKit Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF62D9DB494FF45F0DEEF3147D859287</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FA7CFE03A94F912F37DB1028EF38FAED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F1A426317B7314AC7EA408A2A9DAE2 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0E9B0446B5CC6143DE1C6872A9BC74 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02A89F093E8EC51AE763B27F3A503DC1 /* MoveViewUpForKeyboardKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7721723E4D3C37C31B72E1322D22D32 /* MoveViewUpForKeyboardKit-dummy.m */; };
+		02FDE135C597FC0DD52CAFEF0B3287EE /* DRYUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF85619D540B68366EECB7F87AE89BA /* DRYUI-dummy.m */; };
+		05D362A4C12F79FA956C359CE553C938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D191DB699920046F5057F3B4E1171297 /* UIKit.framework */; };
+		07690B0DAEF664905764C9DDD0FFE3BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748FD0AEE0162744A526765677B66BC /* Masonry-dummy.m */; };
+		0DCAA7A2A88D4C2F4CFE2451C320DA1D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E1095ECB52A9063F20E27A2B46A57D20 /* MASLayoutConstraint.m */; };
+		114B0277436A6EC98AD8F475E120C804 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636C6052FED1A48DEACA5166ACC8626 /* ViewController+MASAdditions.m */; };
+		197A1A7C1253063D6B85411552802B3F /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA4494D302CA1FA3063DAAF05742163 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE25F3067E714975732CD0C4672EF37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
+		1E5717420A9DADFEE4CFC26B19D9F7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
+		1FF9785D2B7715F39BD4258BCE46C5C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
+		30E700D20A232BF56C71A9307D9825F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D191DB699920046F5057F3B4E1171297 /* UIKit.framework */; };
+		361D60868C84890C42B8F57AF81DBEF6 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 496309CF3AD3B8E1E230607C4EA42DCF /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363EEFD6B8835D230098D6D0DA7FF5B2 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 411DE9C484F4D78437A545E77D82C56C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A0EDF51EDB21EADB1D0F9048FC74CCE /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AF3C2BDFE79BA72578BA434966F63F /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF415889A5C4091E8CF82C0993A585B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B5591255F4B7D13B4655F0DACD068 /* MASViewConstraint.m */; };
+		4124FC1DDF01F3C5B4F6A2826C809443 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 453977296FB393BB1B6975E8594B9A6B /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3AAAC08EAAC9AF488F4A3BBDE11AD6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A430EF8311AFC53918B3999958D1FB /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F67A945E4BB244B56338326803B19B6 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B59B0D8D39D709E411D0365C768C286 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F81508F420A91D9CB8AAB0E0A4C4666 /* MVUFKView.m in Sources */ = {isa = PBXBuildFile; fileRef = B50AD1D04BCE4346D9A5BE48360EDA93 /* MVUFKView.m */; };
+		64AA422E245D5E7865AE4588D6B58B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
+		6F63BF6D4C818A545E480083B7BC05E9 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCF554023FAB7F3DE613837221DF63A /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D8F59D6FB9451B49BF6C6EA1CE76C5 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0584461A4615C955B48E71B1956AF2D0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A1975BFF06918802D1A6FF43946429 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DCCC79D9EF4FA91F7C26A8316F52BE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		7ACE3AD077D106D86BFE7D9C1BB6840A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D191DB699920046F5057F3B4E1171297 /* UIKit.framework */; };
+		7FA577523D89D3980A7205DAABF2D121 /* MVUFKView.h in Headers */ = {isa = PBXBuildFile; fileRef = B277C6DC8C61A86801ED99941758B485 /* MVUFKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2726E2A91A2C4BE921265B77A7FB96 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6600C3D536185C9DA1E802A1E0FC976B /* MASViewAttribute.m */; };
+		90777408275C8BE2A75E983A9B82E684 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 519CACDBF4FA77132FDAAF834FE20BC5 /* MASCompositeConstraint.m */; };
+		90A8092B1478321A69C25D2DEFDF5E17 /* DRYUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B187D83BCD38B78C13AA51224C42E81A /* DRYUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93B0C4B84B47E711DB8454DF3CBD2685 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8C846B5FDCB0DEF8A534487ACF4441 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955FAC9E71FB31A9B9DCC305C2AE5F2E /* MoveViewUpForKeyboardKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E27B32365E58A7945BC56AD5BBA774F /* MoveViewUpForKeyboardKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97E7B6AB52AB4CDD422F3DB1FA115B3F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 64369AA8AB0DE5E6D7CA920266B75D89 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F4D9A60329AEECF3426797858BF5D4 /* Pods-MoveViewUpForKeyboardKit Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9508B9674BECD8DD20168400D24458CC /* Pods-MoveViewUpForKeyboardKit Example-dummy.m */; };
+		9A50BA68A7BF8EE804FC609696E922AF /* DRYUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7221C4C0C6C5176DE83086B49377B28B /* DRYUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BADF31C518984A48247D2A49AAA569A /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A506C91DF8D6720CF95477622BD11A13 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5EE41B87B88352226DF0F93803F51B /* DRYUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DDB1B883A9460D3B075344DBDA0C77 /* DRYUI.m */; };
+		A7EE9ABA1223A7AB2AA2A06926DD21EC /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A39176E398454028BF7AE6507BEED51 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FF727EAE8B3173292C73D6B15A19EE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 301557484445E4EA5BA091700834B7B9 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A5B445F48AAFE1367E399328F3A418 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D29B804709CF887614DC9BA7693424F /* View+MASAdditions.m */; };
+		CC732FE55B9400CD77C9C73F90D8CB5A /* DRYUIMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 627557B046073C06233FADF254EF9D34 /* DRYUIMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE403E7A4C78379B13841C839DEEA13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
+		CE4E157C30799E11084E0006AFC689A0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8984A154B575B87F259D03C6186E1F /* NSArray+MASAdditions.m */; };
+		CF07C78BB52116FF13531994F0125042 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 659021FDE4F25A9FC88F966B9E56AE71 /* MASConstraintMaker.m */; };
+		DA623432F361133B44D4F65CD0D149DD /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2847DE9B107337955A1546A8138D456F /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B40415626FEF028FDB54705BF1CB41 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2E8F66D6C1044BC1DAE588924EACEF /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E86DA98906D885A7B43A7EEA2FB4BE57 /* libextobjc-metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A55B43CF8637DABF1C82FDD3048C9F0F /* libextobjc-metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF58DAC8D0E1EC2BFB86EB56AD721893 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FC1F882414857CBAE2ED843A6812F5 /* MASConstraint.m */; };
+		F4A9617992B0A76B5467F61697FB4508 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		FA7CFE03A94F912F37DB1028EF38FAED /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E3A97FA0EE42518919259AC10CA332 /* Pods-Tests-dummy.m */; };
+		FBEF6E3425AFB232694A3461B0A3C0BD /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D17397A31FA9048B9C64DE056E485B /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B61368028331869731DF8A1FC11FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9557F7CFC0A76656228765962E537F;
+			remoteInfo = MoveViewUpForKeyboardKit;
+		};
+		5FAEEDE53A7F76DE5AA750C58A7EF5C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9557F7CFC0A76656228765962E537F;
+			remoteInfo = MoveViewUpForKeyboardKit;
+		};
+		7879263A5BA1CEA1E6B23C084891223F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51441E827E03C2FFD4A64324FF9F3FE;
+			remoteInfo = DRYUI;
+		};
+		8DE07494AF868F832AAA2B5CE05E9C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9010A9D55B9FC20ACA306B2ED7689078;
+			remoteInfo = Masonry;
+		};
+		CEF62456F0738079B271E2DA7989D9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9010A9D55B9FC20ACA306B2ED7689078;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033786D1343BB6D86BBE85A51016E0F4 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0584461A4615C955B48E71B1956AF2D0 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		0985E97C128BAC8150FE78108F886957 /* MoveViewUpForKeyboardKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveViewUpForKeyboardKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0D8C846B5FDCB0DEF8A534487ACF4441 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		105D7DEB7FCD07B405140B953A705B85 /* DRYUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYUI-prefix.pch"; sourceTree = "<group>"; };
+		11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		12BA8BAC77B50EEAD02B69573B874DFB /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
+		1A39176E398454028BF7AE6507BEED51 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		1D29B804709CF887614DC9BA7693424F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		1FF85619D540B68366EECB7F87AE89BA /* DRYUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRYUI-dummy.m"; sourceTree = "<group>"; };
+		2636C6052FED1A48DEACA5166ACC8626 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2847DE9B107337955A1546A8138D456F /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoveViewUpForKeyboardKit Example-umbrella.h"; sourceTree = "<group>"; };
+		285B5591255F4B7D13B4655F0DACD068 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		301557484445E4EA5BA091700834B7B9 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		31DCCC79D9EF4FA91F7C26A8316F52BE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		39BC1F3D944E99DBFFBC1E5317A9B572 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
+		3B59B0D8D39D709E411D0365C768C286 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		411DE9C484F4D78437A545E77D82C56C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4157BCBC7E5D7ACB02D6E0F7B6DBDE21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453977296FB393BB1B6975E8594B9A6B /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		496309CF3AD3B8E1E230607C4EA42DCF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		4D18651BA429C1AD6B93713B0BCA672A /* DRYUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRYUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7DBEB3329D0D8D4F7364D05DA8BE83 /* Pods-MoveViewUpForKeyboardKit Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MoveViewUpForKeyboardKit Example.modulemap"; sourceTree = "<group>"; };
+		506BD20DF1A1B48CA19B5D2130183906 /* Pods-MoveViewUpForKeyboardKit Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoveViewUpForKeyboardKit Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		519CACDBF4FA77132FDAAF834FE20BC5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5EDA86249AEBAF55C445E051A5696ECB /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627557B046073C06233FADF254EF9D34 /* DRYUIMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYUIMetamacros.h; path = DRYUI/DRYUIMetamacros.h; sourceTree = "<group>"; };
+		628DCF13AE0B40CF62B74C8E8360CB0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64369AA8AB0DE5E6D7CA920266B75D89 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		659021FDE4F25A9FC88F966B9E56AE71 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		6600C3D536185C9DA1E802A1E0FC976B /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E27B32365E58A7945BC56AD5BBA774F /* MoveViewUpForKeyboardKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoveViewUpForKeyboardKit-umbrella.h"; sourceTree = "<group>"; };
+		7221C4C0C6C5176DE83086B49377B28B /* DRYUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYUI-umbrella.h"; sourceTree = "<group>"; };
+		74DDB1B883A9460D3B075344DBDA0C77 /* DRYUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYUI.m; path = DRYUI/DRYUI.m; sourceTree = "<group>"; };
+		7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRYUI.xcconfig; sourceTree = "<group>"; };
+		820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoveViewUpForKeyboardKit.xcconfig; sourceTree = "<group>"; };
+		866EB0567C365A254CF686FB82D3488D /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		86D17397A31FA9048B9C64DE056E485B /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
+		871498BDCA04D65A8B15D296F44D6050 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F485597651E76F1FC1F872B4FC8A17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA4494D302CA1FA3063DAAF05742163 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		8C88B0531303437E5B7E395269413A8A /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		9508B9674BECD8DD20168400D24458CC /* Pods-MoveViewUpForKeyboardKit Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoveViewUpForKeyboardKit Example-dummy.m"; sourceTree = "<group>"; };
+		9748FD0AEE0162744A526765677B66BC /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		9A0E9B0446B5CC6143DE1C6872A9BC74 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A2FC1F882414857CBAE2ED843A6812F5 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		A506C91DF8D6720CF95477622BD11A13 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		A55B43CF8637DABF1C82FDD3048C9F0F /* libextobjc-metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "libextobjc-metamacros.h"; path = "DRYUI/libextobjc-metamacros.h"; sourceTree = "<group>"; };
+		A5AF3C2BDFE79BA72578BA434966F63F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		AB8984A154B575B87F259D03C6186E1F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B187D83BCD38B78C13AA51224C42E81A /* DRYUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYUI.h; path = DRYUI/DRYUI.h; sourceTree = "<group>"; };
+		B277C6DC8C61A86801ED99941758B485 /* MVUFKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MVUFKView.h; sourceTree = "<group>"; };
+		B41A5E6E75E58AFA5F1BD90B72373E1A /* Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B50AD1D04BCE4346D9A5BE48360EDA93 /* MVUFKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MVUFKView.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2B98768C0CA0D5AD080B19E4432FCB7 /* DRYUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DRYUI.modulemap; sourceTree = "<group>"; };
+		C6A430EF8311AFC53918B3999958D1FB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		C89EE63AE2D01A2F7D13088C5EDC7535 /* Pods-MoveViewUpForKeyboardKit Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveViewUpForKeyboardKit Example.release.xcconfig"; sourceTree = "<group>"; };
+		C9EE49440980401DF248D4AE43E26913 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CBCF554023FAB7F3DE613837221DF63A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		CF2E8F66D6C1044BC1DAE588924EACEF /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		D191DB699920046F5057F3B4E1171297 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D7721723E4D3C37C31B72E1322D22D32 /* MoveViewUpForKeyboardKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoveViewUpForKeyboardKit-dummy.m"; sourceTree = "<group>"; };
+		DA05C1C88522262270CAC9F2F154E225 /* MoveViewUpForKeyboardKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoveViewUpForKeyboardKit.modulemap; sourceTree = "<group>"; };
+		DBBF57978D06F61C7BADC49FD5A5F509 /* Pods-MoveViewUpForKeyboardKit Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoveViewUpForKeyboardKit Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE738DA0E6EB9BFA10BE635D648EEAD3 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		DF15E7410EB7A19ED83A5B7A87518BC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1095ECB52A9063F20E27A2B46A57D20 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E2982F2CA578142294681A6ECE346ADA /* Pods_MoveViewUpForKeyboardKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveViewUpForKeyboardKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E3A97FA0EE42518919259AC10CA332 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		EA0D74C20596489EF5FC24C4E5F0CDF3 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAAA2F31F348850183CF7D4DB79812D4 /* MoveViewUpForKeyboardKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoveViewUpForKeyboardKit-prefix.pch"; sourceTree = "<group>"; };
+		F0A3E62D03C73BD39578896D1AFB867C /* Pods-MoveViewUpForKeyboardKit Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoveViewUpForKeyboardKit Example-resources.sh"; sourceTree = "<group>"; };
+		F0C740622C8828DA0E9E8A2AA3D7A065 /* Pods-MoveViewUpForKeyboardKit Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoveViewUpForKeyboardKit Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9E256493FD8D85D8A84603AAAF96F3B /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007F6CF7E9E192AC142F57F4F01D0636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE25F3067E714975732CD0C4672EF37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B37C14DB8DE8AFC3FE8E6FF99CDA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE403E7A4C78379B13841C839DEEA13F /* Foundation.framework in Frameworks */,
+				30E700D20A232BF56C71A9307D9825F1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAD707915019A32F9C57072B9B9EC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF9785D2B7715F39BD4258BCE46C5C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A183F239F0C5810D241DB4CECF1A122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AA422E245D5E7865AE4588D6B58B74 /* Foundation.framework in Frameworks */,
+				F4A9617992B0A76B5467F61697FB4508 /* Masonry.framework in Frameworks */,
+				05D362A4C12F79FA956C359CE553C938 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FCAB9D883B4C37C20AB62F62EF0615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5717420A9DADFEE4CFC26B19D9F7A7 /* Foundation.framework in Frameworks */,
+				7ACE3AD077D106D86BFE7D9C1BB6840A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0031A3F38DA3D6837286F1D4040FA3B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDEC2E3044007A83B06678C487669558 /* Pods-MoveViewUpForKeyboardKit Example */,
+				4D0360BE46D5397E2DB22EB71C267F14 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		00E6F37A8E43D84720561FB24C58D512 /* MoveViewUpForKeyboardKit */ = {
+			isa = PBXGroup;
+			children = (
+				7C334043C473D2EC9E98CF80AB4013E7 /* MoveViewUpForKeyboardKit */,
+				0844467064B267A0ADDC323BAE07202F /* Support Files */,
+			);
+			name = MoveViewUpForKeyboardKit;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		060C5478DA770C6F85FA929F6DBAD79C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D18651BA429C1AD6B93713B0BCA672A /* DRYUI.framework */,
+				033786D1343BB6D86BBE85A51016E0F4 /* Masonry.framework */,
+				0985E97C128BAC8150FE78108F886957 /* MoveViewUpForKeyboardKit.framework */,
+				E2982F2CA578142294681A6ECE346ADA /* Pods_MoveViewUpForKeyboardKit_Example.framework */,
+				5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1 /* Pods_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083BE07E833EDE55791E9656F7EBB567 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2B98768C0CA0D5AD080B19E4432FCB7 /* DRYUI.modulemap */,
+				7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */,
+				1FF85619D540B68366EECB7F87AE89BA /* DRYUI-dummy.m */,
+				105D7DEB7FCD07B405140B953A705B85 /* DRYUI-prefix.pch */,
+				7221C4C0C6C5176DE83086B49377B28B /* DRYUI-umbrella.h */,
+				628DCF13AE0B40CF62B74C8E8360CB0D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DRYUI";
+			sourceTree = "<group>";
+		};
+		0844467064B267A0ADDC323BAE07202F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				871498BDCA04D65A8B15D296F44D6050 /* Info.plist */,
+				DA05C1C88522262270CAC9F2F154E225 /* MoveViewUpForKeyboardKit.modulemap */,
+				820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */,
+				D7721723E4D3C37C31B72E1322D22D32 /* MoveViewUpForKeyboardKit-dummy.m */,
+				EAAA2F31F348850183CF7D4DB79812D4 /* MoveViewUpForKeyboardKit-prefix.pch */,
+				6E27B32365E58A7945BC56AD5BBA774F /* MoveViewUpForKeyboardKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/MoveViewUpForKeyboardKit";
+			sourceTree = "<group>";
+		};
+		4D0360BE46D5397E2DB22EB71C267F14 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF15E7410EB7A19ED83A5B7A87518BC2 /* Info.plist */,
+				39BC1F3D944E99DBFFBC1E5317A9B572 /* Pods-Tests.modulemap */,
+				5EDA86249AEBAF55C445E051A5696ECB /* Pods-Tests-acknowledgements.markdown */,
+				F9E256493FD8D85D8A84603AAAF96F3B /* Pods-Tests-acknowledgements.plist */,
+				E4E3A97FA0EE42518919259AC10CA332 /* Pods-Tests-dummy.m */,
+				C9EE49440980401DF248D4AE43E26913 /* Pods-Tests-frameworks.sh */,
+				DE738DA0E6EB9BFA10BE635D648EEAD3 /* Pods-Tests-resources.sh */,
+				86D17397A31FA9048B9C64DE056E485B /* Pods-Tests-umbrella.h */,
+				EA0D74C20596489EF5FC24C4E5F0CDF3 /* Pods-Tests.debug.xcconfig */,
+				866EB0567C365A254CF686FB82D3488D /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		529DE3D546EA7717323FDB1AB9A7BFF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F5CAC8F8F25F1365429857097052D /* DRYUI */,
+				C08FBA98B6D65B1262F347CAE3F2DFD6 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		577784C2103082C2BC2441C4E40FFCA1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00E6F37A8E43D84720561FB24C58D512 /* MoveViewUpForKeyboardKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
+				BD6A029B56315F199B8B604A89006E3B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C334043C473D2EC9E98CF80AB4013E7 /* MoveViewUpForKeyboardKit */ = {
+			isa = PBXGroup;
+			children = (
+				B277C6DC8C61A86801ED99941758B485 /* MVUFKView.h */,
+				B50AD1D04BCE4346D9A5BE48360EDA93 /* MVUFKView.m */,
+			);
+			path = MoveViewUpForKeyboardKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				577784C2103082C2BC2441C4E40FFCA1 /* Development Pods */,
+				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
+				529DE3D546EA7717323FDB1AB9A7BFF3 /* Pods */,
+				060C5478DA770C6F85FA929F6DBAD79C /* Products */,
+				0031A3F38DA3D6837286F1D4040FA3B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6A029B56315F199B8B604A89006E3B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */,
+				D191DB699920046F5057F3B4E1171297 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C08FBA98B6D65B1262F347CAE3F2DFD6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				1A39176E398454028BF7AE6507BEED51 /* MASCompositeConstraint.h */,
+				519CACDBF4FA77132FDAAF834FE20BC5 /* MASCompositeConstraint.m */,
+				3B59B0D8D39D709E411D0365C768C286 /* MASConstraint.h */,
+				A2FC1F882414857CBAE2ED843A6812F5 /* MASConstraint.m */,
+				64369AA8AB0DE5E6D7CA920266B75D89 /* MASConstraint+Private.h */,
+				CF2E8F66D6C1044BC1DAE588924EACEF /* MASConstraintMaker.h */,
+				659021FDE4F25A9FC88F966B9E56AE71 /* MASConstraintMaker.m */,
+				A5AF3C2BDFE79BA72578BA434966F63F /* MASLayoutConstraint.h */,
+				E1095ECB52A9063F20E27A2B46A57D20 /* MASLayoutConstraint.m */,
+				CBCF554023FAB7F3DE613837221DF63A /* Masonry.h */,
+				A506C91DF8D6720CF95477622BD11A13 /* MASUtilities.h */,
+				9A0E9B0446B5CC6143DE1C6872A9BC74 /* MASViewAttribute.h */,
+				6600C3D536185C9DA1E802A1E0FC976B /* MASViewAttribute.m */,
+				8AA4494D302CA1FA3063DAAF05742163 /* MASViewConstraint.h */,
+				285B5591255F4B7D13B4655F0DACD068 /* MASViewConstraint.m */,
+				496309CF3AD3B8E1E230607C4EA42DCF /* NSArray+MASAdditions.h */,
+				AB8984A154B575B87F259D03C6186E1F /* NSArray+MASAdditions.m */,
+				411DE9C484F4D78437A545E77D82C56C /* NSArray+MASShorthandAdditions.h */,
+				C6A430EF8311AFC53918B3999958D1FB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				31DCCC79D9EF4FA91F7C26A8316F52BE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0584461A4615C955B48E71B1956AF2D0 /* View+MASAdditions.h */,
+				1D29B804709CF887614DC9BA7693424F /* View+MASAdditions.m */,
+				301557484445E4EA5BA091700834B7B9 /* View+MASShorthandAdditions.h */,
+				0D8C846B5FDCB0DEF8A534487ACF4441 /* ViewController+MASAdditions.h */,
+				2636C6052FED1A48DEACA5166ACC8626 /* ViewController+MASAdditions.m */,
+				F55414B979FFF32877587C1B3C8C6165 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		CD3F5CAC8F8F25F1365429857097052D /* DRYUI */ = {
+			isa = PBXGroup;
+			children = (
+				B187D83BCD38B78C13AA51224C42E81A /* DRYUI.h */,
+				74DDB1B883A9460D3B075344DBDA0C77 /* DRYUI.m */,
+				627557B046073C06233FADF254EF9D34 /* DRYUIMetamacros.h */,
+				A55B43CF8637DABF1C82FDD3048C9F0F /* libextobjc-metamacros.h */,
+				083BE07E833EDE55791E9656F7EBB567 /* Support Files */,
+			);
+			path = DRYUI;
+			sourceTree = "<group>";
+		};
+		F55414B979FFF32877587C1B3C8C6165 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4157BCBC7E5D7ACB02D6E0F7B6DBDE21 /* Info.plist */,
+				12BA8BAC77B50EEAD02B69573B874DFB /* Masonry.modulemap */,
+				11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */,
+				9748FD0AEE0162744A526765677B66BC /* Masonry-dummy.m */,
+				8C88B0531303437E5B7E395269413A8A /* Masonry-prefix.pch */,
+				453977296FB393BB1B6975E8594B9A6B /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		FDEC2E3044007A83B06678C487669558 /* Pods-MoveViewUpForKeyboardKit Example */ = {
+			isa = PBXGroup;
+			children = (
+				88F485597651E76F1FC1F872B4FC8A17 /* Info.plist */,
+				4F7DBEB3329D0D8D4F7364D05DA8BE83 /* Pods-MoveViewUpForKeyboardKit Example.modulemap */,
+				DBBF57978D06F61C7BADC49FD5A5F509 /* Pods-MoveViewUpForKeyboardKit Example-acknowledgements.markdown */,
+				506BD20DF1A1B48CA19B5D2130183906 /* Pods-MoveViewUpForKeyboardKit Example-acknowledgements.plist */,
+				9508B9674BECD8DD20168400D24458CC /* Pods-MoveViewUpForKeyboardKit Example-dummy.m */,
+				F0C740622C8828DA0E9E8A2AA3D7A065 /* Pods-MoveViewUpForKeyboardKit Example-frameworks.sh */,
+				F0A3E62D03C73BD39578896D1AFB867C /* Pods-MoveViewUpForKeyboardKit Example-resources.sh */,
+				2847DE9B107337955A1546A8138D456F /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h */,
+				B41A5E6E75E58AFA5F1BD90B72373E1A /* Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig */,
+				C89EE63AE2D01A2F7D13088C5EDC7535 /* Pods-MoveViewUpForKeyboardKit Example.release.xcconfig */,
+			);
+			name = "Pods-MoveViewUpForKeyboardKit Example";
+			path = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1098791A85FFD0DA0035F5371B33FD27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955FAC9E71FB31A9B9DCC305C2AE5F2E /* MoveViewUpForKeyboardKit-umbrella.h in Headers */,
+				7FA577523D89D3980A7205DAABF2D121 /* MVUFKView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D21C4F6AB89D24CDE74CDDBB288A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A50BA68A7BF8EE804FC609696E922AF /* DRYUI-umbrella.h in Headers */,
+				90A8092B1478321A69C25D2DEFDF5E17 /* DRYUI.h in Headers */,
+				CC732FE55B9400CD77C9C73F90D8CB5A /* DRYUIMetamacros.h in Headers */,
+				E86DA98906D885A7B43A7EEA2FB4BE57 /* libextobjc-metamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4420A338449FEC950DF5D4FC9968DFDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EE9ABA1223A7AB2AA2A06926DD21EC /* MASCompositeConstraint.h in Headers */,
+				97E7B6AB52AB4CDD422F3DB1FA115B3F /* MASConstraint+Private.h in Headers */,
+				4F67A945E4BB244B56338326803B19B6 /* MASConstraint.h in Headers */,
+				E3B40415626FEF028FDB54705BF1CB41 /* MASConstraintMaker.h in Headers */,
+				3A0EDF51EDB21EADB1D0F9048FC74CCE /* MASLayoutConstraint.h in Headers */,
+				4124FC1DDF01F3C5B4F6A2826C809443 /* Masonry-umbrella.h in Headers */,
+				6F63BF6D4C818A545E480083B7BC05E9 /* Masonry.h in Headers */,
+				9BADF31C518984A48247D2A49AAA569A /* MASUtilities.h in Headers */,
+				00F1A426317B7314AC7EA408A2A9DAE2 /* MASViewAttribute.h in Headers */,
+				197A1A7C1253063D6B85411552802B3F /* MASViewConstraint.h in Headers */,
+				361D60868C84890C42B8F57AF81DBEF6 /* NSArray+MASAdditions.h in Headers */,
+				363EEFD6B8835D230098D6D0DA7FF5B2 /* NSArray+MASShorthandAdditions.h in Headers */,
+				4C3AAAC08EAAC9AF488F4A3BBDE11AD6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				75D8F59D6FB9451B49BF6C6EA1CE76C5 /* View+MASAdditions.h in Headers */,
+				B5FF727EAE8B3173292C73D6B15A19EE /* View+MASShorthandAdditions.h in Headers */,
+				93B0C4B84B47E711DB8454DF3CBD2685 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EA4D522E852AB4D8C57AAB073FE100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA623432F361133B44D4F65CD0D149DD /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8BC2CF31389A53EC1404EC5E973560 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEF6E3425AFB232694A3461B0A3C0BD /* Pods-Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60AEF6B38C68CBADD37AE99FA51D978B /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B6895558BEB313E5E62D1A5FAD00E8D /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				FF62D9DB494FF45F0DEEF3147D859287 /* Sources */,
+				007F6CF7E9E192AC142F57F4F01D0636 /* Frameworks */,
+				AC8BC2CF31389A53EC1404EC5E973560 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C0794A42D5B13AB95CF3B903811673 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1 /* Pods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00320C225618DCA5BD8A06D4CD551EE0 /* Build configuration list for PBXNativeTarget "MoveViewUpForKeyboardKit" */;
+			buildPhases = (
+				9828AEE26A35A2B01A16DE4E8E5F609F /* Sources */,
+				36B37C14DB8DE8AFC3FE8E6FF99CDA54 /* Frameworks */,
+				1098791A85FFD0DA0035F5371B33FD27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveViewUpForKeyboardKit;
+			productName = MoveViewUpForKeyboardKit;
+			productReference = 0985E97C128BAC8150FE78108F886957 /* MoveViewUpForKeyboardKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9010A9D55B9FC20ACA306B2ED7689078 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D914A65D0FF519F6F1E06F2A6EFDA3 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				F4A2D383FC35CB1B27B8FB1A6732B726 /* Sources */,
+				C0FCAB9D883B4C37C20AB62F62EF0615 /* Frameworks */,
+				4420A338449FEC950DF5D4FC9968DFDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 033786D1343BB6D86BBE85A51016E0F4 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B1462C75E9A6E221DD191F1756FCA54 /* Pods-MoveViewUpForKeyboardKit Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3E078FDAD9A513331DEE8ACC486ED1 /* Build configuration list for PBXNativeTarget "Pods-MoveViewUpForKeyboardKit Example" */;
+			buildPhases = (
+				7CB0571EC0D892B068A11E1E0C34106C /* Sources */,
+				3EAD707915019A32F9C57072B9B9EC1A /* Frameworks */,
+				78EA4D522E852AB4D8C57AAB073FE100 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				258301A1BF0744B38F0A3B2F84E47F92 /* PBXTargetDependency */,
+				A8285EA425B653FB0EFAF35F5D070CA4 /* PBXTargetDependency */,
+				8C7A2A93486B8B329116938116822E2B /* PBXTargetDependency */,
+			);
+			name = "Pods-MoveViewUpForKeyboardKit Example";
+			productName = "Pods-MoveViewUpForKeyboardKit Example";
+			productReference = E2982F2CA578142294681A6ECE346ADA /* Pods_MoveViewUpForKeyboardKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D51441E827E03C2FFD4A64324FF9F3FE /* DRYUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7CBECE4D4B93DB2A200866A989A1AB /* Build configuration list for PBXNativeTarget "DRYUI" */;
+			buildPhases = (
+				34CBF7702E5231363574BBA2A6DA5F2B /* Sources */,
+				4A183F239F0C5810D241DB4CECF1A122 /* Frameworks */,
+				3D21C4F6AB89D24CDE74CDDBB288A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D559913951E69F7883715DED0C419A /* PBXTargetDependency */,
+			);
+			name = DRYUI;
+			productName = DRYUI;
+			productReference = 4D18651BA429C1AD6B93713B0BCA672A /* DRYUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 060C5478DA770C6F85FA929F6DBAD79C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51441E827E03C2FFD4A64324FF9F3FE /* DRYUI */,
+				9010A9D55B9FC20ACA306B2ED7689078 /* Masonry */,
+				7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */,
+				9B1462C75E9A6E221DD191F1756FCA54 /* Pods-MoveViewUpForKeyboardKit Example */,
+				60AEF6B38C68CBADD37AE99FA51D978B /* Pods-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CBF7702E5231363574BBA2A6DA5F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FDE135C597FC0DD52CAFEF0B3287EE /* DRYUI-dummy.m in Sources */,
+				9F5EE41B87B88352226DF0F93803F51B /* DRYUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB0571EC0D892B068A11E1E0C34106C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F4D9A60329AEECF3426797858BF5D4 /* Pods-MoveViewUpForKeyboardKit Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9828AEE26A35A2B01A16DE4E8E5F609F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A89F093E8EC51AE763B27F3A503DC1 /* MoveViewUpForKeyboardKit-dummy.m in Sources */,
+				4F81508F420A91D9CB8AAB0E0A4C4666 /* MVUFKView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A2D383FC35CB1B27B8FB1A6732B726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90777408275C8BE2A75E983A9B82E684 /* MASCompositeConstraint.m in Sources */,
+				EF58DAC8D0E1EC2BFB86EB56AD721893 /* MASConstraint.m in Sources */,
+				CF07C78BB52116FF13531994F0125042 /* MASConstraintMaker.m in Sources */,
+				0DCAA7A2A88D4C2F4CFE2451C320DA1D /* MASLayoutConstraint.m in Sources */,
+				07690B0DAEF664905764C9DDD0FFE3BB /* Masonry-dummy.m in Sources */,
+				8D2726E2A91A2C4BE921265B77A7FB96 /* MASViewAttribute.m in Sources */,
+				3AF415889A5C4091E8CF82C0993A585B /* MASViewConstraint.m in Sources */,
+				CE4E157C30799E11084E0006AFC689A0 /* NSArray+MASAdditions.m in Sources */,
+				79A1975BFF06918802D1A6FF43946429 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C8A5B445F48AAFE1367E399328F3A418 /* View+MASAdditions.m in Sources */,
+				114B0277436A6EC98AD8F475E120C804 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF62D9DB494FF45F0DEEF3147D859287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7CFE03A94F912F37DB1028EF38FAED /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		258301A1BF0744B38F0A3B2F84E47F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRYUI;
+			target = D51441E827E03C2FFD4A64324FF9F3FE /* DRYUI */;
+			targetProxy = 7879263A5BA1CEA1E6B23C084891223F /* PBXContainerItemProxy */;
+		};
+		66C0794A42D5B13AB95CF3B903811673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoveViewUpForKeyboardKit;
+			target = 7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */;
+			targetProxy = 08B61368028331869731DF8A1FC11FC5 /* PBXContainerItemProxy */;
+		};
+		8C7A2A93486B8B329116938116822E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoveViewUpForKeyboardKit;
+			target = 7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */;
+			targetProxy = 5FAEEDE53A7F76DE5AA750C58A7EF5C2 /* PBXContainerItemProxy */;
+		};
+		A8285EA425B653FB0EFAF35F5D070CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9010A9D55B9FC20ACA306B2ED7689078 /* Masonry */;
+			targetProxy = CEF62456F0738079B271E2DA7989D9C7 /* PBXContainerItemProxy */;
+		};
+		C4D559913951E69F7883715DED0C419A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9010A9D55B9FC20ACA306B2ED7689078 /* Masonry */;
+			targetProxy = 8DE07494AF868F832AAA2B5CE05E9C0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AFA6812E465B7C9F81550FBBED1D9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRYUI/DRYUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRYUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRYUI/DRYUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DRYUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B438F543F6EF49DCEDAAB6D44541E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0D74C20596489EF5FC24C4E5F0CDF3 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32E34B5B6F911565C4297022A02A98A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866EB0567C365A254CF686FB82D3488D /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		424771B44C1339043E300B49789C69EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRYUI/DRYUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRYUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRYUI/DRYUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DRYUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65C27E106E8013702729C7C957F554E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MoveViewUpForKeyboardKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MoveViewUpForKeyboardKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		688714C43C5137A85C29E6F6B7CA179D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95C0F8D3333E45268A5F377BC21AE098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MoveViewUpForKeyboardKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MoveViewUpForKeyboardKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A425457901EEFFA3B94235C6FC2746E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A940E8DD7EC88769FF7FCF33B1078F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89EE63AE2D01A2F7D13088C5EDC7535 /* Pods-MoveViewUpForKeyboardKit Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MoveViewUpForKeyboardKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8443F3AA8235416773F509A0D566D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41A5E6E75E58AFA5F1BD90B72373E1A /* Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MoveViewUpForKeyboardKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00320C225618DCA5BD8A06D4CD551EE0 /* Build configuration list for PBXNativeTarget "MoveViewUpForKeyboardKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C27E106E8013702729C7C957F554E5 /* Debug */,
+				95C0F8D3333E45268A5F377BC21AE098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D914A65D0FF519F6F1E06F2A6EFDA3 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688714C43C5137A85C29E6F6B7CA179D /* Debug */,
+				A425457901EEFFA3B94235C6FC2746E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3E078FDAD9A513331DEE8ACC486ED1 /* Build configuration list for PBXNativeTarget "Pods-MoveViewUpForKeyboardKit Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8443F3AA8235416773F509A0D566D0C /* Debug */,
+				A940E8DD7EC88769FF7FCF33B1078F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B6895558BEB313E5E62D1A5FAD00E8D /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B438F543F6EF49DCEDAAB6D44541E5F /* Debug */,
+				32E34B5B6F911565C4297022A02A98A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7CBECE4D4B93DB2A200866A989A1AB /* Build configuration list for PBXNativeTarget "DRYUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFA6812E465B7C9F81550FBBED1D9C0 /* Debug */,
+				424771B44C1339043E300B49789C69EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

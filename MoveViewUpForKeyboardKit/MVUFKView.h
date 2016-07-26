@@ -1,5 +1,5 @@
 //
-//  MVUFKKView.h
+//  MVUFKView.h
 //  MoveViewUpForKeyboardKit
 //
 //  Created by Griffin Schneider on 5/7/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MVUFKKView : UIView
+@interface MVUFKView : UIView
 
 @property (nonatomic, assign) BOOL enabled;
 

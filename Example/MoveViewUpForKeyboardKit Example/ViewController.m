@@ -8,12 +8,12 @@
 
 #import "ViewController.h"
 
-#import <MoveViewUpForKeyboardKit/MVUFKKView.h>
+#import <MoveViewUpForKeyboardKit/MVUFKView.h>
 #import <DRYUI/DRYUI.h>
 
 @interface ViewController ()
 
-@property (nonatomic, strong) MVUFKKView *keyboardView;
+@property (nonatomic, strong) MVUFKView *keyboardView;
 
 @end
 
