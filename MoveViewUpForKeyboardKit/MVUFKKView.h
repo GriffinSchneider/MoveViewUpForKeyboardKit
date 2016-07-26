@@ -10,4 +10,6 @@
 
 @interface MVUFKKView : UIView
 
+@property (nonatomic, assign) BOOL enabled;
+
 @end

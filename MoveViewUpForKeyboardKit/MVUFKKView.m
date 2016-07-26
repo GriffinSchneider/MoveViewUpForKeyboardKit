@@ -76,6 +76,8 @@ static MVUFKKKeyboardManager *managerInstance;
 }
 
 - (void)keyboardFrameWillChangeToFrame:(CGRect)frame withAnimationDuration:(NSTimeInterval)duration andAnimationCurve:(UIViewAnimationCurve)curve {
+    if (!self.enabled) return;
+    
     if (!self.constraint) {
         self.constraint =
         [NSLayoutConstraint
@@ -88,20 +90,33 @@ static MVUFKKKeyboardManager *managerInstance;
          constant:0.0f];
         [self.superview addConstraint:self.constraint];
     }
-    [self.superview layoutIfNeeded];
+    
     CGFloat superViewHeight = self.superview.frame.size.height;
     CGFloat keyboardY = [self.superview convertRect:frame fromView:nil].origin.y;
     CGFloat newConstant = MAX(superViewHeight - keyboardY, 0);
     
     [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:duration];
+    [UIView setAnimationDuration:0];
     [UIView setAnimationCurve:curve];
-    [UIView setAnimationBeginsFromCurrentState:YES];
+    [UIView setAnimationBeginsFromCurrentState:NO];
     
     self.constraint.constant = newConstant;
-    [self.superview layoutIfNeeded];
     
+    [self.superview layoutIfNeeded];
     [UIView commitAnimations];
+}
+
+- (void)setEnabled:(BOOL)enabled {
+    if (enabled) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            _enabled = YES;
+            [self keyboardFrameWillChangeToFrame:managerInstance.keyboardFrame
+                           withAnimationDuration:0
+                               andAnimationCurve:UIViewAnimationCurveLinear];
+        });
+    } else {
+        _enabled = NO;
+    }
 }
 
 - (CGSize)intrinsicContentSize {
