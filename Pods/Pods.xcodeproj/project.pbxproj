@@ -8,78 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		00F1A426317B7314AC7EA408A2A9DAE2 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0E9B0446B5CC6143DE1C6872A9BC74 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02A89F093E8EC51AE763B27F3A503DC1 /* MoveViewUpForKeyboardKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7721723E4D3C37C31B72E1322D22D32 /* MoveViewUpForKeyboardKit-dummy.m */; };
 		02FDE135C597FC0DD52CAFEF0B3287EE /* DRYUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF85619D540B68366EECB7F87AE89BA /* DRYUI-dummy.m */; };
-		05D362A4C12F79FA956C359CE553C938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D191DB699920046F5057F3B4E1171297 /* UIKit.framework */; };
 		07690B0DAEF664905764C9DDD0FFE3BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748FD0AEE0162744A526765677B66BC /* Masonry-dummy.m */; };
+		0ACD15C7AE0598A50F9BF8E6769773D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
 		0DCAA7A2A88D4C2F4CFE2451C320DA1D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E1095ECB52A9063F20E27A2B46A57D20 /* MASLayoutConstraint.m */; };
 		114B0277436A6EC98AD8F475E120C804 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2636C6052FED1A48DEACA5166ACC8626 /* ViewController+MASAdditions.m */; };
 		197A1A7C1253063D6B85411552802B3F /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA4494D302CA1FA3063DAAF05742163 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AE25F3067E714975732CD0C4672EF37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
-		1E5717420A9DADFEE4CFC26B19D9F7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
-		1FF9785D2B7715F39BD4258BCE46C5C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
-		30E700D20A232BF56C71A9307D9825F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D191DB699920046F5057F3B4E1171297 /* UIKit.framework */; };
+		1F8D59B00861C8821D22CD6708DE798D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */; };
+		345934109FCDEB8CC23520F58F5ADF46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
 		361D60868C84890C42B8F57AF81DBEF6 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 496309CF3AD3B8E1E230607C4EA42DCF /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		363EEFD6B8835D230098D6D0DA7FF5B2 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 411DE9C484F4D78437A545E77D82C56C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A0EDF51EDB21EADB1D0F9048FC74CCE /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AF3C2BDFE79BA72578BA434966F63F /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AF415889A5C4091E8CF82C0993A585B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B5591255F4B7D13B4655F0DACD068 /* MASViewConstraint.m */; };
+		407DD1C8C83AFD36648EE7570E6D4DFE /* Pods-MoveViewUpForKeyboardKit Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9508B9674BECD8DD20168400D24458CC /* Pods-MoveViewUpForKeyboardKit Example-dummy.m */; };
 		4124FC1DDF01F3C5B4F6A2826C809443 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 453977296FB393BB1B6975E8594B9A6B /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439FD3B2FA16F24C6AEEF734E7F784B4 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D17397A31FA9048B9C64DE056E485B /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C3AAAC08EAAC9AF488F4A3BBDE11AD6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A430EF8311AFC53918B3999958D1FB /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F67A945E4BB244B56338326803B19B6 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B59B0D8D39D709E411D0365C768C286 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F81508F420A91D9CB8AAB0E0A4C4666 /* MVUFKView.m in Sources */ = {isa = PBXBuildFile; fileRef = B50AD1D04BCE4346D9A5BE48360EDA93 /* MVUFKView.m */; };
-		64AA422E245D5E7865AE4588D6B58B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
+		5B64D756C3D616D1CA61AE7CF901E66C /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2847DE9B107337955A1546A8138D456F /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65451E8BC0602EB194C14ACB27BEB0F4 /* MVUFKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D73BF537A0986336B23B4ABD52451B /* MVUFKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A2F6018958E6AE0107E253CECE5D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
+		6CBE3149DB7328BE11ED7DE118F9A01D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */; };
 		6F63BF6D4C818A545E480083B7BC05E9 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCF554023FAB7F3DE613837221DF63A /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75D8F59D6FB9451B49BF6C6EA1CE76C5 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0584461A4615C955B48E71B1956AF2D0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79A1975BFF06918802D1A6FF43946429 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DCCC79D9EF4FA91F7C26A8316F52BE /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		7ACE3AD077D106D86BFE7D9C1BB6840A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D191DB699920046F5057F3B4E1171297 /* UIKit.framework */; };
-		7FA577523D89D3980A7205DAABF2D121 /* MVUFKView.h in Headers */ = {isa = PBXBuildFile; fileRef = B277C6DC8C61A86801ED99941758B485 /* MVUFKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D2726E2A91A2C4BE921265B77A7FB96 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6600C3D536185C9DA1E802A1E0FC976B /* MASViewAttribute.m */; };
 		90777408275C8BE2A75E983A9B82E684 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 519CACDBF4FA77132FDAAF834FE20BC5 /* MASCompositeConstraint.m */; };
 		90A8092B1478321A69C25D2DEFDF5E17 /* DRYUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B187D83BCD38B78C13AA51224C42E81A /* DRYUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93B0C4B84B47E711DB8454DF3CBD2685 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8C846B5FDCB0DEF8A534487ACF4441 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		955FAC9E71FB31A9B9DCC305C2AE5F2E /* MoveViewUpForKeyboardKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E27B32365E58A7945BC56AD5BBA774F /* MoveViewUpForKeyboardKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97E7B6AB52AB4CDD422F3DB1FA115B3F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 64369AA8AB0DE5E6D7CA920266B75D89 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98F4D9A60329AEECF3426797858BF5D4 /* Pods-MoveViewUpForKeyboardKit Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9508B9674BECD8DD20168400D24458CC /* Pods-MoveViewUpForKeyboardKit Example-dummy.m */; };
 		9A50BA68A7BF8EE804FC609696E922AF /* DRYUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7221C4C0C6C5176DE83086B49377B28B /* DRYUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BADF31C518984A48247D2A49AAA569A /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A506C91DF8D6720CF95477622BD11A13 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F5EE41B87B88352226DF0F93803F51B /* DRYUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DDB1B883A9460D3B075344DBDA0C77 /* DRYUI.m */; };
 		A7EE9ABA1223A7AB2AA2A06926DD21EC /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A39176E398454028BF7AE6507BEED51 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A881C029AC43C54D9BD42F8A9262520E /* MVUFKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD712FB7A7750588B36CF9A16896AF /* MVUFKView.m */; };
+		B032AA43972A04A42F3FE2E1085346AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */; };
+		B422F50A423C9F7BFF5568B332264E0A /* MoveViewUpForKeyboardKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7721723E4D3C37C31B72E1322D22D32 /* MoveViewUpForKeyboardKit-dummy.m */; };
 		B5FF727EAE8B3173292C73D6B15A19EE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 301557484445E4EA5BA091700834B7B9 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2DFA39268134DB0F898A868646A0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
+		C67DE77B517457B8BC7B710B0ECD55D8 /* MoveViewUpForKeyboardKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E27B32365E58A7945BC56AD5BBA774F /* MoveViewUpForKeyboardKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8A5B445F48AAFE1367E399328F3A418 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D29B804709CF887614DC9BA7693424F /* View+MASAdditions.m */; };
 		CC732FE55B9400CD77C9C73F90D8CB5A /* DRYUIMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 627557B046073C06233FADF254EF9D34 /* DRYUIMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE403E7A4C78379B13841C839DEEA13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */; };
 		CE4E157C30799E11084E0006AFC689A0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8984A154B575B87F259D03C6186E1F /* NSArray+MASAdditions.m */; };
 		CF07C78BB52116FF13531994F0125042 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 659021FDE4F25A9FC88F966B9E56AE71 /* MASConstraintMaker.m */; };
-		DA623432F361133B44D4F65CD0D149DD /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2847DE9B107337955A1546A8138D456F /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3B40415626FEF028FDB54705BF1CB41 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2E8F66D6C1044BC1DAE588924EACEF /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E7592DD6A26100C318D0B00E9B85B7 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E3A97FA0EE42518919259AC10CA332 /* Pods-Tests-dummy.m */; };
 		E86DA98906D885A7B43A7EEA2FB4BE57 /* libextobjc-metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A55B43CF8637DABF1C82FDD3048C9F0F /* libextobjc-metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF58DAC8D0E1EC2BFB86EB56AD721893 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FC1F882414857CBAE2ED843A6812F5 /* MASConstraint.m */; };
 		F4A9617992B0A76B5467F61697FB4508 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
-		FA7CFE03A94F912F37DB1028EF38FAED /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E3A97FA0EE42518919259AC10CA332 /* Pods-Tests-dummy.m */; };
-		FBEF6E3425AFB232694A3461B0A3C0BD /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D17397A31FA9048B9C64DE056E485B /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCD5E56B80DD4AE6C7EAF586178D4571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08B61368028331869731DF8A1FC11FC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A9557F7CFC0A76656228765962E537F;
-			remoteInfo = MoveViewUpForKeyboardKit;
-		};
-		5FAEEDE53A7F76DE5AA750C58A7EF5C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A9557F7CFC0A76656228765962E537F;
-			remoteInfo = MoveViewUpForKeyboardKit;
-		};
-		7879263A5BA1CEA1E6B23C084891223F /* PBXContainerItemProxy */ = {
+		1B25C761601ACA5BB0AB934002DDE0D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D51441E827E03C2FFD4A64324FF9F3FE;
 			remoteInfo = DRYUI;
+		};
+		4421E6DE6F915AD12DDC7F1638C92D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9557F7CFC0A76656228765962E537F;
+			remoteInfo = MoveViewUpForKeyboardKit;
 		};
 		8DE07494AF868F832AAA2B5CE05E9C0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -88,7 +81,14 @@
 			remoteGlobalIDString = 9010A9D55B9FC20ACA306B2ED7689078;
 			remoteInfo = Masonry;
 		};
-		CEF62456F0738079B271E2DA7989D9C7 /* PBXContainerItemProxy */ = {
+		957B1EE294A74D8D515D2A935B913C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9557F7CFC0A76656228765962E537F;
+			remoteInfo = MoveViewUpForKeyboardKit;
+		};
+		CEFAA918956955E5A1E4AE9EB52662DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -98,10 +98,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033786D1343BB6D86BBE85A51016E0F4 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0584461A4615C955B48E71B1956AF2D0 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		0985E97C128BAC8150FE78108F886957 /* MoveViewUpForKeyboardKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveViewUpForKeyboardKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		05D73BF537A0986336B23B4ABD52451B /* MVUFKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MVUFKView.h; sourceTree = "<group>"; };
 		0D8C846B5FDCB0DEF8A534487ACF4441 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		105D7DEB7FCD07B405140B953A705B85 /* DRYUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYUI-prefix.pch"; sourceTree = "<group>"; };
 		11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
@@ -109,9 +107,11 @@
 		1A39176E398454028BF7AE6507BEED51 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		1D29B804709CF887614DC9BA7693424F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		1FF85619D540B68366EECB7F87AE89BA /* DRYUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRYUI-dummy.m"; sourceTree = "<group>"; };
+		24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2636C6052FED1A48DEACA5166ACC8626 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		2847DE9B107337955A1546A8138D456F /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoveViewUpForKeyboardKit Example-umbrella.h"; sourceTree = "<group>"; };
 		285B5591255F4B7D13B4655F0DACD068 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		2B2DCF8EDEFD3ECE7FA0F3BEA71A7B11 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		301557484445E4EA5BA091700834B7B9 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		31DCCC79D9EF4FA91F7C26A8316F52BE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		39BC1F3D944E99DBFFBC1E5317A9B572 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
@@ -119,13 +119,13 @@
 		411DE9C484F4D78437A545E77D82C56C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		4157BCBC7E5D7ACB02D6E0F7B6DBDE21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		453977296FB393BB1B6975E8594B9A6B /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		45C6251025372939F916CAD315B32179 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		496309CF3AD3B8E1E230607C4EA42DCF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		4D18651BA429C1AD6B93713B0BCA672A /* DRYUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRYUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7DBEB3329D0D8D4F7364D05DA8BE83 /* Pods-MoveViewUpForKeyboardKit Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MoveViewUpForKeyboardKit Example.modulemap"; sourceTree = "<group>"; };
 		506BD20DF1A1B48CA19B5D2130183906 /* Pods-MoveViewUpForKeyboardKit Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoveViewUpForKeyboardKit Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		519CACDBF4FA77132FDAAF834FE20BC5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5EDA86249AEBAF55C445E051A5696ECB /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		627557B046073C06233FADF254EF9D34 /* DRYUIMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYUIMetamacros.h; path = DRYUI/DRYUIMetamacros.h; sourceTree = "<group>"; };
 		628DCF13AE0B40CF62B74C8E8360CB0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64369AA8AB0DE5E6D7CA920266B75D89 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -133,6 +133,7 @@
 		6600C3D536185C9DA1E802A1E0FC976B /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E27B32365E58A7945BC56AD5BBA774F /* MoveViewUpForKeyboardKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoveViewUpForKeyboardKit-umbrella.h"; sourceTree = "<group>"; };
+		6EB46C6DEB5237ECF8E22B94AF9D4FF1 /* MoveViewUpForKeyboardKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveViewUpForKeyboardKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7221C4C0C6C5176DE83086B49377B28B /* DRYUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRYUI-umbrella.h"; sourceTree = "<group>"; };
 		74DDB1B883A9460D3B075344DBDA0C77 /* DRYUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRYUI.m; path = DRYUI/DRYUI.m; sourceTree = "<group>"; };
 		7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRYUI.xcconfig; sourceTree = "<group>"; };
@@ -143,6 +144,9 @@
 		88F485597651E76F1FC1F872B4FC8A17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA4494D302CA1FA3063DAAF05742163 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		8C88B0531303437E5B7E395269413A8A /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		8CCD712FB7A7750588B36CF9A16896AF /* MVUFKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MVUFKView.m; sourceTree = "<group>"; };
+		8F178FC50996616C8442BE9A85EC7D52 /* Pods_MoveViewUpForKeyboardKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveViewUpForKeyboardKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9508B9674BECD8DD20168400D24458CC /* Pods-MoveViewUpForKeyboardKit Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoveViewUpForKeyboardKit Example-dummy.m"; sourceTree = "<group>"; };
 		9748FD0AEE0162744A526765677B66BC /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		9A0E9B0446B5CC6143DE1C6872A9BC74 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -151,25 +155,21 @@
 		A55B43CF8637DABF1C82FDD3048C9F0F /* libextobjc-metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "libextobjc-metamacros.h"; path = "DRYUI/libextobjc-metamacros.h"; sourceTree = "<group>"; };
 		A5AF3C2BDFE79BA72578BA434966F63F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		AB8984A154B575B87F259D03C6186E1F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		AD8AE0FFD3FF4CB4173A1362F5D4FE4F /* DRYUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRYUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B187D83BCD38B78C13AA51224C42E81A /* DRYUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRYUI.h; path = DRYUI/DRYUI.h; sourceTree = "<group>"; };
-		B277C6DC8C61A86801ED99941758B485 /* MVUFKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MVUFKView.h; sourceTree = "<group>"; };
 		B41A5E6E75E58AFA5F1BD90B72373E1A /* Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B50AD1D04BCE4346D9A5BE48360EDA93 /* MVUFKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MVUFKView.m; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2B98768C0CA0D5AD080B19E4432FCB7 /* DRYUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DRYUI.modulemap; sourceTree = "<group>"; };
 		C6A430EF8311AFC53918B3999958D1FB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		C89EE63AE2D01A2F7D13088C5EDC7535 /* Pods-MoveViewUpForKeyboardKit Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveViewUpForKeyboardKit Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9EE49440980401DF248D4AE43E26913 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CBCF554023FAB7F3DE613837221DF63A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		CF2E8F66D6C1044BC1DAE588924EACEF /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		D191DB699920046F5057F3B4E1171297 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D7721723E4D3C37C31B72E1322D22D32 /* MoveViewUpForKeyboardKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoveViewUpForKeyboardKit-dummy.m"; sourceTree = "<group>"; };
 		DA05C1C88522262270CAC9F2F154E225 /* MoveViewUpForKeyboardKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MoveViewUpForKeyboardKit.modulemap; sourceTree = "<group>"; };
 		DBBF57978D06F61C7BADC49FD5A5F509 /* Pods-MoveViewUpForKeyboardKit Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoveViewUpForKeyboardKit Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE738DA0E6EB9BFA10BE635D648EEAD3 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
 		DF15E7410EB7A19ED83A5B7A87518BC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1095ECB52A9063F20E27A2B46A57D20 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		E2982F2CA578142294681A6ECE346ADA /* Pods_MoveViewUpForKeyboardKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveViewUpForKeyboardKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E3A97FA0EE42518919259AC10CA332 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
 		EA0D74C20596489EF5FC24C4E5F0CDF3 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAAA2F31F348850183CF7D4DB79812D4 /* MoveViewUpForKeyboardKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoveViewUpForKeyboardKit-prefix.pch"; sourceTree = "<group>"; };
@@ -179,11 +179,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		007F6CF7E9E192AC142F57F4F01D0636 /* Frameworks */ = {
+		02DA9A21559FCF0C2B4DCA658257511E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE25F3067E714975732CD0C4672EF37 /* Foundation.framework in Frameworks */,
+				65A2F6018958E6AE0107E253CECE5D47 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,16 +191,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE403E7A4C78379B13841C839DEEA13F /* Foundation.framework in Frameworks */,
-				30E700D20A232BF56C71A9307D9825F1 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3EAD707915019A32F9C57072B9B9EC1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FF9785D2B7715F39BD4258BCE46C5C6 /* Foundation.framework in Frameworks */,
+				0ACD15C7AE0598A50F9BF8E6769773D8 /* Foundation.framework in Frameworks */,
+				6CBE3149DB7328BE11ED7DE118F9A01D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +200,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64AA422E245D5E7865AE4588D6B58B74 /* Foundation.framework in Frameworks */,
+				BF2DFA39268134DB0F898A868646A0CA /* Foundation.framework in Frameworks */,
 				F4A9617992B0A76B5467F61697FB4508 /* Masonry.framework in Frameworks */,
-				05D362A4C12F79FA956C359CE553C938 /* UIKit.framework in Frameworks */,
+				B032AA43972A04A42F3FE2E1085346AC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7153B784932835CB1B55B6517CE5724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345934109FCDEB8CC23520F58F5ADF46 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,8 +218,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E5717420A9DADFEE4CFC26B19D9F7A7 /* Foundation.framework in Frameworks */,
-				7ACE3AD077D106D86BFE7D9C1BB6840A /* UIKit.framework in Frameworks */,
+				FCD5E56B80DD4AE6C7EAF586178D4571 /* Foundation.framework in Frameworks */,
+				1F8D59B00861C8821D22CD6708DE798D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,23 +238,20 @@
 		00E6F37A8E43D84720561FB24C58D512 /* MoveViewUpForKeyboardKit */ = {
 			isa = PBXGroup;
 			children = (
-				7C334043C473D2EC9E98CF80AB4013E7 /* MoveViewUpForKeyboardKit */,
+				03EC3A400FFF3ECE9872C20B04199FD9 /* MoveViewUpForKeyboardKit */,
 				0844467064B267A0ADDC323BAE07202F /* Support Files */,
 			);
 			name = MoveViewUpForKeyboardKit;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		060C5478DA770C6F85FA929F6DBAD79C /* Products */ = {
+		03EC3A400FFF3ECE9872C20B04199FD9 /* MoveViewUpForKeyboardKit */ = {
 			isa = PBXGroup;
 			children = (
-				4D18651BA429C1AD6B93713B0BCA672A /* DRYUI.framework */,
-				033786D1343BB6D86BBE85A51016E0F4 /* Masonry.framework */,
-				0985E97C128BAC8150FE78108F886957 /* MoveViewUpForKeyboardKit.framework */,
-				E2982F2CA578142294681A6ECE346ADA /* Pods_MoveViewUpForKeyboardKit_Example.framework */,
-				5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1 /* Pods_Tests.framework */,
+				05D73BF537A0986336B23B4ABD52451B /* MVUFKView.h */,
+				8CCD712FB7A7750588B36CF9A16896AF /* MVUFKView.m */,
 			);
-			name = Products;
+			path = MoveViewUpForKeyboardKit;
 			sourceTree = "<group>";
 		};
 		083BE07E833EDE55791E9656F7EBB567 /* Support Files */ = {
@@ -324,39 +321,21 @@
 			isa = PBXGroup;
 			children = (
 				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
-				BD6A029B56315F199B8B604A89006E3B /* iOS */,
+				DD823825D4B08E2AE7068B31500D9229 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7C334043C473D2EC9E98CF80AB4013E7 /* MoveViewUpForKeyboardKit */ = {
-			isa = PBXGroup;
-			children = (
-				B277C6DC8C61A86801ED99941758B485 /* MVUFKView.h */,
-				B50AD1D04BCE4346D9A5BE48360EDA93 /* MVUFKView.m */,
-			);
-			path = MoveViewUpForKeyboardKit;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				577784C2103082C2BC2441C4E40FFCA1 /* Development Pods */,
 				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
 				529DE3D546EA7717323FDB1AB9A7BFF3 /* Pods */,
-				060C5478DA770C6F85FA929F6DBAD79C /* Products */,
+				D971BDE0C2BB5F6CDFF246221F4AB7DD /* Products */,
 				0031A3F38DA3D6837286F1D4040FA3B8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		BD6A029B56315F199B8B604A89006E3B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0A83880C48939BE4C108DE5BA751349B /* Foundation.framework */,
-				D191DB699920046F5057F3B4E1171297 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C08FBA98B6D65B1262F347CAE3F2DFD6 /* Masonry */ = {
@@ -404,6 +383,27 @@
 			path = DRYUI;
 			sourceTree = "<group>";
 		};
+		D971BDE0C2BB5F6CDFF246221F4AB7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8AE0FFD3FF4CB4173A1362F5D4FE4F /* DRYUI.framework */,
+				2B2DCF8EDEFD3ECE7FA0F3BEA71A7B11 /* Masonry.framework */,
+				6EB46C6DEB5237ECF8E22B94AF9D4FF1 /* MoveViewUpForKeyboardKit.framework */,
+				8F178FC50996616C8442BE9A85EC7D52 /* Pods_MoveViewUpForKeyboardKit_Example.framework */,
+				45C6251025372939F916CAD315B32179 /* Pods_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD823825D4B08E2AE7068B31500D9229 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */,
+				24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		F55414B979FFF32877587C1B3C8C6165 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -439,15 +439,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1098791A85FFD0DA0035F5371B33FD27 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				955FAC9E71FB31A9B9DCC305C2AE5F2E /* MoveViewUpForKeyboardKit-umbrella.h in Headers */,
-				7FA577523D89D3980A7205DAABF2D121 /* MVUFKView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3D21C4F6AB89D24CDE74CDDBB288A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,50 +473,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78EA4D522E852AB4D8C57AAB073FE100 /* Headers */ = {
+		AFF7838DE47EEDE462CDDFB852DD588E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA623432F361133B44D4F65CD0D149DD /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h in Headers */,
+				C67DE77B517457B8BC7B710B0ECD55D8 /* MoveViewUpForKeyboardKit-umbrella.h in Headers */,
+				65451E8BC0602EB194C14ACB27BEB0F4 /* MVUFKView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC8BC2CF31389A53EC1404EC5E973560 /* Headers */ = {
+		BFE2C06905879AA7A92CCBB955BEA51C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBEF6E3425AFB232694A3461B0A3C0BD /* Pods-Tests-umbrella.h in Headers */,
+				439FD3B2FA16F24C6AEEF734E7F784B4 /* Pods-Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74AE81E5D9BF981CEC475017D3E048 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B64D756C3D616D1CA61AE7CF901E66C /* Pods-MoveViewUpForKeyboardKit Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		60AEF6B38C68CBADD37AE99FA51D978B /* Pods-Tests */ = {
+		1C08E8C984691ECEA4A13AE0632FF350 /* Pods-MoveViewUpForKeyboardKit Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B6895558BEB313E5E62D1A5FAD00E8D /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 725FEFA588B5D78DC09F6B3B4BCC0D85 /* Build configuration list for PBXNativeTarget "Pods-MoveViewUpForKeyboardKit Example" */;
 			buildPhases = (
-				FF62D9DB494FF45F0DEEF3147D859287 /* Sources */,
-				007F6CF7E9E192AC142F57F4F01D0636 /* Frameworks */,
-				AC8BC2CF31389A53EC1404EC5E973560 /* Headers */,
+				2C6056C811323078373D70DA8274182F /* Sources */,
+				02DA9A21559FCF0C2B4DCA658257511E /* Frameworks */,
+				EA74AE81E5D9BF981CEC475017D3E048 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				66C0794A42D5B13AB95CF3B903811673 /* PBXTargetDependency */,
+				00964A9EFEA2B39EC35F1A500D359E03 /* PBXTargetDependency */,
+				42354B67009E7E7CDBF279267496C575 /* PBXTargetDependency */,
+				0CFE976CDC29AD441B97C57D2F1EDAEC /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 5F7855C1AA2F7EB2EB4DF9D6A5E7B9E1 /* Pods_Tests.framework */;
+			name = "Pods-MoveViewUpForKeyboardKit Example";
+			productName = "Pods-MoveViewUpForKeyboardKit Example";
+			productReference = 8F178FC50996616C8442BE9A85EC7D52 /* Pods_MoveViewUpForKeyboardKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00320C225618DCA5BD8A06D4CD551EE0 /* Build configuration list for PBXNativeTarget "MoveViewUpForKeyboardKit" */;
 			buildPhases = (
-				9828AEE26A35A2B01A16DE4E8E5F609F /* Sources */,
+				4BE01A7F42BE87E2C5314FF2C9D77BA6 /* Sources */,
 				36B37C14DB8DE8AFC3FE8E6FF99CDA54 /* Frameworks */,
-				1098791A85FFD0DA0035F5371B33FD27 /* Headers */,
+				AFF7838DE47EEDE462CDDFB852DD588E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -533,7 +535,7 @@
 			);
 			name = MoveViewUpForKeyboardKit;
 			productName = MoveViewUpForKeyboardKit;
-			productReference = 0985E97C128BAC8150FE78108F886957 /* MoveViewUpForKeyboardKit.framework */;
+			productReference = 6EB46C6DEB5237ECF8E22B94AF9D4FF1 /* MoveViewUpForKeyboardKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9010A9D55B9FC20ACA306B2ED7689078 /* Masonry */ = {
@@ -550,27 +552,25 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 033786D1343BB6D86BBE85A51016E0F4 /* Masonry.framework */;
+			productReference = 2B2DCF8EDEFD3ECE7FA0F3BEA71A7B11 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9B1462C75E9A6E221DD191F1756FCA54 /* Pods-MoveViewUpForKeyboardKit Example */ = {
+		BFAE2F4CCBD2BE23D9F8BD102EDB105B /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B3E078FDAD9A513331DEE8ACC486ED1 /* Build configuration list for PBXNativeTarget "Pods-MoveViewUpForKeyboardKit Example" */;
+			buildConfigurationList = C6F9431F8AFE4FDC92C63E479CBA5E1C /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				7CB0571EC0D892B068A11E1E0C34106C /* Sources */,
-				3EAD707915019A32F9C57072B9B9EC1A /* Frameworks */,
-				78EA4D522E852AB4D8C57AAB073FE100 /* Headers */,
+				F961AC62892C5B62E7ED2DF818D4DDF6 /* Sources */,
+				7153B784932835CB1B55B6517CE5724B /* Frameworks */,
+				BFE2C06905879AA7A92CCBB955BEA51C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				258301A1BF0744B38F0A3B2F84E47F92 /* PBXTargetDependency */,
-				A8285EA425B653FB0EFAF35F5D070CA4 /* PBXTargetDependency */,
-				8C7A2A93486B8B329116938116822E2B /* PBXTargetDependency */,
+				48A5334F441FEB45BDAF7FAAA6684EE7 /* PBXTargetDependency */,
 			);
-			name = "Pods-MoveViewUpForKeyboardKit Example";
-			productName = "Pods-MoveViewUpForKeyboardKit Example";
-			productReference = E2982F2CA578142294681A6ECE346ADA /* Pods_MoveViewUpForKeyboardKit_Example.framework */;
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 45C6251025372939F916CAD315B32179 /* Pods_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D51441E827E03C2FFD4A64324FF9F3FE /* DRYUI */ = {
@@ -588,7 +588,7 @@
 			);
 			name = DRYUI;
 			productName = DRYUI;
-			productReference = 4D18651BA429C1AD6B93713B0BCA672A /* DRYUI.framework */;
+			productReference = AD8AE0FFD3FF4CB4173A1362F5D4FE4F /* DRYUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -597,7 +597,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -608,20 +608,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 060C5478DA770C6F85FA929F6DBAD79C /* Products */;
+			productRefGroup = D971BDE0C2BB5F6CDFF246221F4AB7DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D51441E827E03C2FFD4A64324FF9F3FE /* DRYUI */,
 				9010A9D55B9FC20ACA306B2ED7689078 /* Masonry */,
 				7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */,
-				9B1462C75E9A6E221DD191F1756FCA54 /* Pods-MoveViewUpForKeyboardKit Example */,
-				60AEF6B38C68CBADD37AE99FA51D978B /* Pods-Tests */,
+				1C08E8C984691ECEA4A13AE0632FF350 /* Pods-MoveViewUpForKeyboardKit Example */,
+				BFAE2F4CCBD2BE23D9F8BD102EDB105B /* Pods-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C6056C811323078373D70DA8274182F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407DD1C8C83AFD36648EE7570E6D4DFE /* Pods-MoveViewUpForKeyboardKit Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34CBF7702E5231363574BBA2A6DA5F2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -631,20 +639,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CB0571EC0D892B068A11E1E0C34106C /* Sources */ = {
+		4BE01A7F42BE87E2C5314FF2C9D77BA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F4D9A60329AEECF3426797858BF5D4 /* Pods-MoveViewUpForKeyboardKit Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9828AEE26A35A2B01A16DE4E8E5F609F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02A89F093E8EC51AE763B27F3A503DC1 /* MoveViewUpForKeyboardKit-dummy.m in Sources */,
-				4F81508F420A91D9CB8AAB0E0A4C4666 /* MVUFKView.m in Sources */,
+				B422F50A423C9F7BFF5568B332264E0A /* MoveViewUpForKeyboardKit-dummy.m in Sources */,
+				A881C029AC43C54D9BD42F8A9262520E /* MVUFKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,40 +666,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF62D9DB494FF45F0DEEF3147D859287 /* Sources */ = {
+		F961AC62892C5B62E7ED2DF818D4DDF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7CFE03A94F912F37DB1028EF38FAED /* Pods-Tests-dummy.m in Sources */,
+				E4E7592DD6A26100C318D0B00E9B85B7 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		258301A1BF0744B38F0A3B2F84E47F92 /* PBXTargetDependency */ = {
+		00964A9EFEA2B39EC35F1A500D359E03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DRYUI;
 			target = D51441E827E03C2FFD4A64324FF9F3FE /* DRYUI */;
-			targetProxy = 7879263A5BA1CEA1E6B23C084891223F /* PBXContainerItemProxy */;
+			targetProxy = 1B25C761601ACA5BB0AB934002DDE0D5 /* PBXContainerItemProxy */;
 		};
-		66C0794A42D5B13AB95CF3B903811673 /* PBXTargetDependency */ = {
+		0CFE976CDC29AD441B97C57D2F1EDAEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MoveViewUpForKeyboardKit;
 			target = 7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */;
-			targetProxy = 08B61368028331869731DF8A1FC11FC5 /* PBXContainerItemProxy */;
+			targetProxy = 957B1EE294A74D8D515D2A935B913C8D /* PBXContainerItemProxy */;
 		};
-		8C7A2A93486B8B329116938116822E2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MoveViewUpForKeyboardKit;
-			target = 7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */;
-			targetProxy = 5FAEEDE53A7F76DE5AA750C58A7EF5C2 /* PBXContainerItemProxy */;
-		};
-		A8285EA425B653FB0EFAF35F5D070CA4 /* PBXTargetDependency */ = {
+		42354B67009E7E7CDBF279267496C575 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 9010A9D55B9FC20ACA306B2ED7689078 /* Masonry */;
-			targetProxy = CEF62456F0738079B271E2DA7989D9C7 /* PBXContainerItemProxy */;
+			targetProxy = CEFAA918956955E5A1E4AE9EB52662DC /* PBXContainerItemProxy */;
+		};
+		48A5334F441FEB45BDAF7FAAA6684EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoveViewUpForKeyboardKit;
+			target = 7A9557F7CFC0A76656228765962E537F /* MoveViewUpForKeyboardKit */;
+			targetProxy = 4421E6DE6F915AD12DDC7F1638C92D92 /* PBXContainerItemProxy */;
 		};
 		C4D559913951E69F7883715DED0C419A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -710,25 +710,27 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AFA6812E465B7C9F81550FBBED1D9C0 /* Debug */ = {
+		01D0B1EDF0074462840EEA4CA3F5829E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */;
+			baseConfigurationReference = 11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DRYUI/DRYUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRYUI/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRYUI/DRYUI.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DRYUI;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -737,17 +739,48 @@
 			};
 			name = Debug;
 		};
-		0B438F543F6EF49DCEDAAB6D44541E5F /* Debug */ = {
+		1252C2020B5069B0C8538DDBFEB33C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MoveViewUpForKeyboardKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MoveViewUpForKeyboardKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15520E62B5C625AA1345E63168813514 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA0D74C20596489EF5FC24C4E5F0CDF3 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -758,6 +791,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -767,82 +801,31 @@
 			};
 			name = Debug;
 		};
-		32E34B5B6F911565C4297022A02A98A3 /* Release */ = {
+		418DBA9032D5EA743865048BB66521CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 866EB0567C365A254CF686FB82D3488D /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = B41A5E6E75E58AFA5F1BD90B72373E1A /* Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		424771B44C1339043E300B49789C69EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DRYUI/DRYUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DRYUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DRYUI/DRYUI.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DRYUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		65C27E106E8013702729C7C957F554E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MoveViewUpForKeyboardKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MoveViewUpForKeyboardKit;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoveViewUpForKeyboardKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -851,91 +834,11 @@
 			};
 			name = Debug;
 		};
-		688714C43C5137A85C29E6F6B7CA179D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		95C0F8D3333E45268A5F377BC21AE098 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MoveViewUpForKeyboardKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MoveViewUpForKeyboardKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A425457901EEFFA3B94235C6FC2746E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -950,10 +853,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -971,28 +876,31 @@
 			};
 			name = Debug;
 		};
-		A940E8DD7EC88769FF7FCF33B1078F04 /* Release */ = {
+		6A93480B9B304C1640C54B690A8E75CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C89EE63AE2D01A2F7D13088C5EDC7535 /* Pods-MoveViewUpForKeyboardKit Example.release.xcconfig */;
+			baseConfigurationReference = 866EB0567C365A254CF686FB82D3488D /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MoveViewUpForKeyboardKit_Example;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1001,40 +909,40 @@
 			};
 			name = Release;
 		};
-		D8443F3AA8235416773F509A0D566D0C /* Debug */ = {
+		A6FB9899863C6291A462D73D909CBDF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B41A5E6E75E58AFA5F1BD90B72373E1A /* Pods-MoveViewUpForKeyboardKit Example.debug.xcconfig */;
+			baseConfigurationReference = 11182492C52286F23DB2613F84758D64 /* Masonry.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MoveViewUpForKeyboardKit_Example;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1051,7 +959,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1065,14 +976,134 @@
 			};
 			name = Release;
 		};
+		CD915FD2CFF7A2E820FF88941C39A0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820B897F4F6CE139E09C028C64F29845 /* MoveViewUpForKeyboardKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MoveViewUpForKeyboardKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MoveViewUpForKeyboardKit/MoveViewUpForKeyboardKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MoveViewUpForKeyboardKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D96C5288E4D9CBCA1426CC59F9FCB26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRYUI/DRYUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRYUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRYUI/DRYUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DRYUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3E0644022708C3939571DCE2E67B047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89EE63AE2D01A2F7D13088C5EDC7535 /* Pods-MoveViewUpForKeyboardKit Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoveViewUpForKeyboardKit Example/Pods-MoveViewUpForKeyboardKit Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoveViewUpForKeyboardKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B8D8ADC71582E0356464EBC45B99F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE8E8FBD8C3DD1265896C91114252BB /* DRYUI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRYUI/DRYUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRYUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRYUI/DRYUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DRYUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		00320C225618DCA5BD8A06D4CD551EE0 /* Build configuration list for PBXNativeTarget "MoveViewUpForKeyboardKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65C27E106E8013702729C7C957F554E5 /* Debug */,
-				95C0F8D3333E45268A5F377BC21AE098 /* Release */,
+				1252C2020B5069B0C8538DDBFEB33C7F /* Debug */,
+				CD915FD2CFF7A2E820FF88941C39A0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1080,8 +1111,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1089,26 +1120,26 @@
 		34D914A65D0FF519F6F1E06F2A6EFDA3 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				688714C43C5137A85C29E6F6B7CA179D /* Debug */,
-				A425457901EEFFA3B94235C6FC2746E8 /* Release */,
+				01D0B1EDF0074462840EEA4CA3F5829E /* Debug */,
+				A6FB9899863C6291A462D73D909CBDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B3E078FDAD9A513331DEE8ACC486ED1 /* Build configuration list for PBXNativeTarget "Pods-MoveViewUpForKeyboardKit Example" */ = {
+		725FEFA588B5D78DC09F6B3B4BCC0D85 /* Build configuration list for PBXNativeTarget "Pods-MoveViewUpForKeyboardKit Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8443F3AA8235416773F509A0D566D0C /* Debug */,
-				A940E8DD7EC88769FF7FCF33B1078F04 /* Release */,
+				418DBA9032D5EA743865048BB66521CD /* Debug */,
+				F3E0644022708C3939571DCE2E67B047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B6895558BEB313E5E62D1A5FAD00E8D /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		C6F9431F8AFE4FDC92C63E479CBA5E1C /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B438F543F6EF49DCEDAAB6D44541E5F /* Debug */,
-				32E34B5B6F911565C4297022A02A98A3 /* Release */,
+				15520E62B5C625AA1345E63168813514 /* Debug */,
+				6A93480B9B304C1640C54B690A8E75CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1116,8 +1147,8 @@
 		CB7CBECE4D4B93DB2A200866A989A1AB /* Build configuration list for PBXNativeTarget "DRYUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AFA6812E465B7C9F81550FBBED1D9C0 /* Debug */,
-				424771B44C1339043E300B49789C69EE /* Release */,
+				D96C5288E4D9CBCA1426CC59F9FCB26E /* Debug */,
+				F4B8D8ADC71582E0356464EBC45B99F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
