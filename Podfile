@@ -2,7 +2,7 @@ workspace 'MoveViewUpForKeyboardKit'
 
 use_frameworks!
 
-platform :ios, '11.0'
+platform :ios, '9.0'
 
 project 'Example/MoveViewUpForKeyboardKit Example'
 target 'MoveViewUpForKeyboardKit Example' do
