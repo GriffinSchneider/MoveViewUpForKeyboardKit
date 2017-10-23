@@ -8,6 +8,7 @@
 
 #import "MVUFKView.h"
 
+#define SAFE_AREA_AVAILABLE ([[[UIDevice currentDevice] systemVersion] compare:@"11.0" options:NSNumericSearch] != NSOrderedAscending)
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -77,11 +78,11 @@ static MVUFKKKeyboardManager *managerInstance;
 
 - (void)keyboardFrameWillChangeToFrame:(CGRect)frame withAnimationDuration:(NSTimeInterval)duration andAnimationCurve:(UIViewAnimationCurve)curve {
     if (!self.enabled) return;
-    
+
     if (!self.constraint) {
         self.constraint =
         [NSLayoutConstraint
-         constraintWithItem:self.superview
+         constraintWithItem: SAFE_AREA_AVAILABLE ? self.superview.safeAreaLayoutGuide : self.superview
          attribute:NSLayoutAttributeBottom
          relatedBy:NSLayoutRelationEqual
          toItem:self
@@ -90,18 +91,25 @@ static MVUFKKKeyboardManager *managerInstance;
          constant:0.0f];
         [self.superview addConstraint:self.constraint];
     }
-    
+
     CGFloat superViewHeight = self.superview.frame.size.height;
     CGFloat keyboardY = [self.superview convertRect:frame fromView:nil].origin.y;
-    CGFloat newConstant = MAX(superViewHeight - keyboardY, 0);
-    
+
+    CGFloat newConstant = 0;
+    if (superViewHeight - keyboardY > 0) {
+        newConstant = superViewHeight - keyboardY;
+        if (SAFE_AREA_AVAILABLE) {
+            newConstant = newConstant - self.superview.safeAreaInsets.bottom;
+        }
+    }
+
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:0];
     [UIView setAnimationCurve:curve];
     [UIView setAnimationBeginsFromCurrentState:NO];
-    
+
     self.constraint.constant = newConstant;
-    
+
     [self.superview layoutIfNeeded];
     [UIView commitAnimations];
 }
@@ -124,3 +132,4 @@ static MVUFKKKeyboardManager *managerInstance;
 }
 
 @end
+
