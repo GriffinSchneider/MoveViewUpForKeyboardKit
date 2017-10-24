@@ -1,7 +1,7 @@
 # coding: utf-8
 Pod::Spec.new do |s|
   s.name             = "MoveViewUpForKeyboardKit"
-  s.version          = "3.0.0"
+  s.version          = "3.0.1"
   s.summary          = "MVUFKKit provides a view that will automatically move itself up for the keyboard."
   s.description      = %{
       The eternal battle between iOS developers and the keyboard rages on, and the
@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'Foundation', 'UIKit'
 
   s.requires_arc = true
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'MoveViewUpForKeyboardKit/' + '*.{h,m}'
 end
