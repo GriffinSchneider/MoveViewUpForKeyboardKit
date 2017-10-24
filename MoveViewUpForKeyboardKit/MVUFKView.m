@@ -8,8 +8,6 @@
 
 #import "MVUFKView.h"
 
-#define SAFE_AREA_AVAILABLE ([[[UIDevice currentDevice] systemVersion] compare:@"11.0" options:NSNumericSearch] != NSOrderedAscending)
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 @protocol MVUFKKKeyboardListener <NSObject>
@@ -80,9 +78,15 @@ static MVUFKKKeyboardManager *managerInstance;
     if (!self.enabled) return;
 
     if (!self.constraint) {
+        id item;
+        if (@available(iOS 11, *)) {
+            item = self.superview.safeAreaLayoutGuide;
+        } else {
+            item = self.superview;
+        }
         self.constraint =
         [NSLayoutConstraint
-         constraintWithItem: SAFE_AREA_AVAILABLE ? self.superview.safeAreaLayoutGuide : self.superview
+         constraintWithItem: item
          attribute:NSLayoutAttributeBottom
          relatedBy:NSLayoutRelationEqual
          toItem:self
@@ -98,7 +102,7 @@ static MVUFKKKeyboardManager *managerInstance;
     CGFloat newConstant = 0;
     if (superViewHeight - keyboardY > 0) {
         newConstant = superViewHeight - keyboardY;
-        if (SAFE_AREA_AVAILABLE) {
+        if (@available(iOS 11, *)) {
             newConstant = newConstant - self.superview.safeAreaInsets.bottom;
         }
     }
